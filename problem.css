@@ -1,0 +1,120 @@
+body
+{
+    background-image: url("waterpollution1.jfif");
+    background-size:cover;
+    background-position: center;
+    width:100%;
+    height:100%;
+
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ul
+{   
+    font-size: 20;
+    text-align: right;
+    padding-top: 50px;
+    margin-right: 5px;
+    
+}
+ul li
+{
+    display: inline;
+}
+a:hover
+{
+    background-color: rgb(207, 82, 82);
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+.hometab
+{
+    background-color: green;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+#text
+{
+    text-align: center;
+    color: floralwhite;
+}
+#header1
+{
+    width:100%;
+    height:175px;
+    background-color:rgb(214, 163, 144);
+    margin-top:5%;
+
+}
+.place
+{
+    display:flex;
+    margin-top:5%;
+}
+#container1
+{
+    width:30%;
+    height:515px;
+    background-color: darkcyan;
+}
+#container2
+{   width:30%;
+    height:515px;
+    background-color: darkcyan;
+    margin-left:5%;
+}
+#container3
+{
+    width:30%;
+    height:515px;
+    background-color: darkcyan;
+    margin-left:5%;
+    
+}
+#header2
+{
+    width:100%;
+    height:150px;
+    background-color: rgb(214, 163, 144);
+    margin-top:5%;
+
+}
+#container4
+{
+    width:30%;
+    height:515px;
+    background-color: darkcyan;
+}
+#container5
+{   width:30%;
+    height:515px;
+    background-color: darkcyan;
+    margin-left:5%;
+}
+#container6
+{
+    width:30%;
+    height:515px;
+    background-color: darkcyan;
+    margin-left:5%;
+}
+p
+{
+    text-align: justify;
+    font-size:25px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    
+}
+h2
+{
+    padding-top: 10px;
+    padding-left:10px;
+}
