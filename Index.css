@@ -38,12 +38,13 @@ a:hover
 }
 #container2
 {
-    height: 700px;
+    height: 500px;
     margin-left: 5px;
     background-color: white;
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
+    display: flex;
 }
 #container3
 {
@@ -98,29 +99,56 @@ h1
     font-size: 50;
     font-weight: bold;
 }
-#first
+#c1
 {
     background-color: black;
     width: 400px;
 }
-#second
+#c2
 {
     background-color: black;
     width: 400px;
 }
-#third
+#c3
 {
     background-color: black;
     width: 400px;
 }
-#fourth
+#c4
 {
     background-color: black;
     width: 400px;
+}
+#c5
+{
+    background-color: white;
+    width: 600px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 600px 600px;
+
+}
+#c6
+{
+    background-color: white;
+    width: 800px;
+
 }
 h3
 {
     color: white;
     text-align: center;
     padding-top: 10px;
+}
+h4
+{
+    font-size: 48;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+p
+{
+    padding-top: 50px;
+    font-size: 20;
 }
