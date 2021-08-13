@@ -98,29 +98,25 @@ h1
     font-size: 50;
     font-weight: bold;
 }
-.inner
-{
-    width: 400px;
-}
 #first
 {
     background-color: black;
+    width: 400px;
 }
 #second
 {
     background-color: black;
+    width: 400px;
 }
 #third
 {
     background-color: black;
+    width: 400px;
 }
 #fourth
 {
     background-color: black;
-}
-#fifth
-{
-    background-color: black;
+    width: 400px;
 }
 h3
 {
