@@ -2,15 +2,16 @@
 {
     height: 600px;
     background-color: black;
-    background-image: url(https://images5.alphacoders.com/372/thumb-1920-372649.jpg);
+    background-image: url(https://images.wallpaperscraft.com/image/water_waves_ripples_151390_300x188.jpg);
     background-repeat: no-repeat;
+    background-size: 1400px 600px;
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
 }
 #container2
 {
-    height: 500px;
+    height: 400px;
     margin-left: 5px;
     background-color: white;
     margin-top: -10px;
