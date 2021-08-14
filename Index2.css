@@ -1,0 +1,85 @@
+#container1
+{
+    height: 600px;
+    background-color: black;
+    background-image: url(https://images5.alphacoders.com/372/thumb-1920-372649.jpg);
+    background-repeat: no-repeat;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+#container2
+{
+    height: 500px;
+    margin-left: 5px;
+    background-color: white;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    display: flex;
+}
+#container3
+{
+    height: 700px;
+    margin-left: 5px;
+    background-color: crimson;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+#container4
+{
+    height: 700px;
+    margin-left: 5px;
+    background-color: cyan;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+#container5
+{
+    height: 200px;
+    margin-left: 5px;
+    background-color: darkgray;
+    margin: -10px;
+    display: flex;
+}
+#container1a
+{
+    margin-top: 0px;
+}
+#c1
+{
+    background-color: black;
+    width: 400px;
+}
+#c2
+{
+    background-color: black;
+    width: 400px;
+}
+#c3
+{
+    background-color: black;
+    width: 400px;
+}
+#c4
+{
+    background-color: black;
+    width: 400px;
+}
+#c5
+{
+    background-color: white;
+    width: 600px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 600px 600px;
+
+}
+#c6
+{
+    background-color: white;
+    width: 800px;
+
+}
