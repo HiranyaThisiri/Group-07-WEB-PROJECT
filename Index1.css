@@ -1,0 +1,60 @@
+body
+{
+    background-color: white;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ul
+{
+    font-size: 20;
+    text-align: right;
+    padding-top: 50px;
+    margin-right: 5px;
+}
+ul li
+{
+    display: inline;
+}
+a:hover
+{
+    background-color: rgb(207, 82, 82);
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+.hometab
+{
+    background-color: green;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+h1
+{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50;
+    font-weight: bold;
+}
+h3
+{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+h4
+{
+    font-size: 48;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+p
+{
+    padding-top: 50px;
+    font-size: 20;
+}
