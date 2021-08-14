@@ -1,5 +1,10 @@
-function MyFunction()
+var counter=1;
+setInterval(function()
 {
-    alert('Hello World!');
-}
-window.onload=MyFunction;
+    document.getElementById("radio"+counter).checked=true;
+    counter++;
+    if(counter>4)
+    {
+        counter=1;
+    }
+},5000);
