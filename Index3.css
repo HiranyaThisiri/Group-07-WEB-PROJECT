@@ -1,12 +1,3 @@
-img
-{
-    margin-top: -71px;
-    margin-bottom: 0px;
-    width: 100;
-    height: 100;
-    float: left;
-    
-}
 .slider
 {
     width: 800px;
@@ -110,4 +101,106 @@ img
 #radio4:checked ~ .navigation-auto .auto-btn4
 {
     background: #40D3DC;
+}
+
+
+#radio5:checked ~ .first
+{
+    margin-left: 0;
+}
+#radio6:checked ~ .first
+{
+    margin-left: -20%;
+}
+#radio7:checked ~ .first
+{
+    margin-left: -40%;
+}
+#radio8:checked ~ .first
+{
+    margin-left: -60%;
+}
+#radio5:checked ~ .navigation-auto .auto-btn1
+{
+    background: #40D3DC;
+}
+#radio6:checked ~ .navigation-auto .auto-btn2
+{
+    background: #40D3DC;
+}
+#radio7:checked ~ .navigation-auto .auto-btn3
+{
+    background: #40D3DC;
+}
+#radio8:checked ~ .navigation-auto .auto-btn4
+{
+    background: #40D3DC;
+}
+
+.btn
+{
+    box-shadow: 0 10px 20px gray;
+    width: 100px;
+    height: 100px;
+    top: -60px;
+    left: 20px;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 25px;
+    display: block;
+}
+.btn:hover 
+{
+    box-shadow: 0 5px 10px gray;
+    transform: scale(0.9);
+}
+.button1
+{
+    background: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100px 90px;
+    border: 3px solid white;
+}
+
+.btn1
+{
+    box-shadow: 0 10px 20px gray;
+    position: relative;
+    border-radius: 8px;
+    display: block;
+    margin-left: 350px;
+    margin-top: -40px;
+    height: 35px;
+    width: 100px;
+}
+.btn1:hover 
+{
+    box-shadow: 0 5px 10px gray;
+    transform: scale(0.95);
+}
+.button2
+{
+    border: 1.5px solid black;
+}
+
+.btn2
+{
+    box-shadow: 0 10px 20px gray;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 120px;
+    margin-left: 1200px;
+}
+.btn2:hover 
+{
+    box-shadow: 0 5px 10px gray;
+    transform: scale(0.9);
+}
+.button3
+{
+    background: url(https://i.pinimg.com/originals/01/43/a6/0143a61b91cca8691bcc38f7ca06fa4e.png);
+    background-repeat: no-repeat;
+    background-size: 45px 45px;
+    border: 3px solid black;
 }
