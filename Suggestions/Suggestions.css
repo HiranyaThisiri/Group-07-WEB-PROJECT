@@ -94,4 +94,58 @@ form
 	top: -74px;
 	text-transform: capitalize;
 }
+#email
+{
+	font-size: 16px;
+	position: relative;
+	color: #2b0ff6;
+	left: 200px;
+	top: -37px;
+	line-height: 40px;
+	width: 532px;
+	border-radius: 6px;
+	padding: 0 22px;
+}
+#code
+{
+	font-size: 16px;
+	position: relative;
+	left: 200px;
+	top: -37px;
+	width: 110px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+
+}
+#number
+{
+	font-size: 16px;
+	position: relative;
+	width: 345px;
+	left: 200px;
+	top: -37px;
+	line-height: 40px;
+	padding: 0 22px;
+	border-radius: 6px;
+	color: #2b0ff6;
+}
+#labelarea-code
+{
+	font-size: 14px;
+	color: #E5E5E5;
+	position: relative;
+	left: 92px;
+	top: -02px;
+	text-transform: capitalize;
+}
+#labelphone-number
+{
+	font-size: 14px;
+	color: #E5E5E5;
+	position: relative;
+	left: -142px;
+	top: -02px;
+	text-transform: capitalize;
+}
 
