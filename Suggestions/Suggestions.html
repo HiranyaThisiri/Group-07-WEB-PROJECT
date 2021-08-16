@@ -42,8 +42,8 @@
                 <label id="labelfeamle">Feamle</label><br><br>
 
 		       
-	            <h2 class="detail">Country</h2>
-		        <select id="kingdom" name="kingdom">
+	        <h2 class="detail">Country</h2>
+		   <select id="kingdom" name="kingdom">
    <option value="">----Choose Your Country----</option>      
    <option value="Afganistan">Afghanistan</option>
    <option value="Albania">Albania</option>
@@ -292,29 +292,27 @@
    <option value="Zambia">Zambia</option>
    <option value="Zimbabwe">Zimbabwe</option>
 </select>
-                
-                <!--<label for="rdio">
-                <input type="radio" id="radio-button1"  name="yes">
-                <span class="checkmark"> </span>
-                yes
-                </label>
-
-                <label for="rdio">
-                <input type="radio" id="radio-button2"  name="no">
-                <span class="checkmark"> </span>
-                No
-                </label>-->
-                
+               <div class="user">
+                 <h2 class="detail">User_name</h2>
+                 <input type="text" id="User"name="username" placeholder="Username" value=""><br><br>
+                 <h2 class="detail">Password</h2>
+                 <input type="password" id="pword"name="password" placeholder="Enter Your Strong Password"><br><br>
+                 </div>
 
                 <h2 id="question">Would you hope to see our future save aqua programs?</h2>
-                <input type="radio" name="yes" id="y" value="yes">Yes
-                <input type="radio" name="yes" id="f" value="no">No<br><br>
 
+                <div id="radiotrue">
+                <input type="radio" name="yes"  value="yes">
+                Yes
+                </div>
+                <div id="radiofalse">
+                <input type="radio" name="yes"  value="no">
+                No
+                </div>
+                
                 <div class="button1">
                 <button type="submit">Register</button>
-                </div>
-                <div class="button2">
-                <button type="reset">Cancel</button>
+                 <button type="reset">Cancel</button>
                 </div>
 
 			</form>
