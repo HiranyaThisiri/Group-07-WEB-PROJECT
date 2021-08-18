@@ -1,59 +1,55 @@
-#container1
+*
 {
-    height: 600px;
-    background-color: black;
-    background-image: url(https://images.wallpaperscraft.com/image/water_waves_ripples_151390_300x188.jpg);
-    background-repeat: no-repeat;
-    background-size: 1400px 600px;
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
-#container2
-{
-    height: 550px;
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
-    background-image: url();
-    background-repeat: no-repeat;
-    background-size: 1400px 700px;
-}
-#container3
-{
-    height: 200px;
-    margin-left: 5px;
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
-    background-image: url(Images/rm120batch2-ken-20-framebg.jpg);
-    background-repeat: no-repeat;
-    background-size: 1300px 200px;
-}
-#container4
+.hero
 {
     height: 100vh;
-    margin-left: -10px;
-    margin-right: -10px;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #23E3C9;
+    background-image:url(https://wallpaperaccess.com/full/2159510.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
 }
-#container5
+.nav-bar
+{
+    display: flex;
+    padding: 40px 40px;
+}
+.nav-links
+{
+    flex: 1;
+}
+.banner-title
+{
+    margin: 80px 80px;
+    height: 250px;
+    color: white;
+}
+.container1
+{
+    height: 700px;
+    background-image:url(https://wallpaperboat.com/wp-content/uploads/2020/04/minimalist-4k-wallpaper-full-hd.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+.contents
+{
+    flex-basis: 50%;
+    padding: 10px;
+}
+.container2
 {
     height: 400px;
-    margin-left: 5px;
     background-color: white;
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
 }
-#container6
+.container3
 {
     height: 100vh;
-    margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
     padding: 0;
@@ -62,60 +58,53 @@
     align-items: center;
     background: #23E3C9;
 }
-#container7
+.container4
 {
-    height: 200px;
-    margin-left: 5px;
-    background-color: green;
-    margin-top: -10px;
+    height: 400px;
+    background-color: white;
+}
+.container5
+{
+    height: 100vh;
     margin-left: -10px;
     margin-right: -10px;
-}
-#container8
-{
-    height: 200px;
-    margin-left: 5px;
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
-}
-#container9
-{
-    height: 200px;
-    margin-left: 5px;
-    background-color: darkgray;
-    margin: -10px;
+    padding: 0;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #23E3C9;
 }
-#container10
+.container6
 {
-    height: 100px;
-    margin-left: 5px;
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
+    height: 400px;
+    background-color: white;
 }
-#container1a
+.container7
 {
-    margin-top: 0px;
+    height: 200px;
+    background-color: black;
+}
+.container8
+{
+    display: flex;
 }
 #c1
 {
-    background-color: black;
-    width: 400px;
+    width: 100%;
 }
 #c2
 {
-    background-color: black;
-    width: 400px;
+    width: 100%;
 }
 #c3
 {
-    background-color: black;
-    width: 400px;
+    width: 100%;
 }
 #c4
 {
-    background-color: black;
-    width: 400px;
+    width: 100%;
+}
+#c5
+{
+    width: 100%;
 }
