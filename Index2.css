@@ -4,7 +4,7 @@
     padding: 0;
     font-family: sans-serif;
 }
-.hero
+#hero
 {
     height: 100vh;
     background-image:url(https://wallpaperaccess.com/full/2159510.jpg);
@@ -27,14 +27,12 @@
     margin: 80px 80px;
     height: 250px;
     color: white;
+    position: relative;
 }
 .container1
 {
     height: 700px;
-    background-image:url(https://wallpaperboat.com/wp-content/uploads/2020/04/minimalist-4k-wallpaper-full-hd.jpg);
-    background-position: center;
-    background-size: cover;
-    overflow-x: hidden;
+    background-color: white;
     position: relative;
 }
 .contents
@@ -45,7 +43,8 @@
 .container2
 {
     height: 400px;
-    background-color: white;
+    background-color: yellow;
+    position: relative;
 }
 .container3
 {
@@ -62,6 +61,7 @@
 {
     height: 400px;
     background-color: white;
+    position: relative;
 }
 .container5
 {

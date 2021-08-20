@@ -47,7 +47,7 @@
 {
     color: yellow;
 }
-.search-icon .fa
+.nav-bar .fas
 {
     margin: 45px 23px;
     display: block;
@@ -55,12 +55,11 @@
     font-size: 30px;
     cursor: pointer;
 }
-.search-icons .fa
+.nav-bar .fas
 {
     margin: 15px 23px;
     display: block;
     padding: 8px;
-    border: 1px solid #000;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -83,7 +82,7 @@
     margin-left: 300px;
     margin-top: 100px;
 }
-.nav-bar .fa
+.nav-bar .fas
 {
     display: none;
 }
@@ -101,6 +100,7 @@ h3
     .banner-title
     {
         margin: 80px 40px;
+        position: relative;
     }
     .banner-title h1
     {
@@ -153,7 +153,7 @@ h3
         right: 20px;
         top: 10px;
     }
-    .nav-bar .fa
+    .nav-bar .fas
     {
         display: block;
         margin: 12px 10px;
@@ -199,4 +199,5 @@ h3
     {
         display: none;
     }
+    
 }
