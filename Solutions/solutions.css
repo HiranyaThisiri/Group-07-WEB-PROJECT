@@ -71,7 +71,7 @@ img
 }
 .container 
         {
-            width: 90%;
+            width: 100%;
             padding: 20px;
             margin: 100px auto;
             display: flex;
@@ -81,7 +81,7 @@ img
 
         .box
         {
-            max-width: 100%;
+            width: 100%;
             height: auto;
             margin: 0 10px;
             box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
