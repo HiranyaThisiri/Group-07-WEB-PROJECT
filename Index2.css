@@ -52,13 +52,12 @@
 .container3
 {
     height: 100vh;
-    margin-left: -10px;
-    margin-right: -10px;
-    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #23E3C9;
+    background-image: url(https://wallpaperaccess.com/full/1090535.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container4
 {
@@ -69,13 +68,12 @@
 .container5
 {
     height: 100vh;
-    margin-left: -10px;
-    margin-right: -10px;
-    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #23E3C9;
+    background-image: url(https://wallpaperaccess.com/full/1090535.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container6
 {
