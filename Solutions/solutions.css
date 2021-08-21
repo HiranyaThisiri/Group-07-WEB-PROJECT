@@ -92,7 +92,8 @@ img
         {
             display: block;
             width: 100%;
-            height: auto;
+            height: 100%;
+            transition: .9s;
         }
 
         .box:hover
