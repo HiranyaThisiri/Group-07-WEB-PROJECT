@@ -2,19 +2,21 @@ body
 {
 
     background-size:cover;
-    background-position:fixed;
+    background-position:center;
+    background-image: url("blue.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     width:100%;
     height:100%;
  
-   font-family:'Times New Roman', Times, serif;
-   margin:0;
-   padding:0;
-
+    font-family:'Times New Roman', Times, serif;
+    margin:0;
+    padding:0;
 }
 a
 {
     text-decoration: none;
-    color: black;
+    color: white;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -33,7 +35,7 @@ ul li
 }
 a:hover
 {
-    background-color: rgb(207, 82, 82);
+    background-color: royalblue;
     padding-bottom: 4px;
     padding-top: 4px;
 }
@@ -44,14 +46,21 @@ a:hover
     padding-bottom: 4px;
 }
 img
- 
 {
  
     margin-top: -90px;
     margin-bottom: 0px;
     width: 100px;
-    height: 150px;
+    height: 110px;
     float: left;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+hr
+{
+    margin-top: 95px;
+    height: 2px;
+    background-color: royalblue;
 }
 #text
 {
@@ -66,9 +75,42 @@ img
     width:100%;
     height:175px;
     background-color:rgb(214, 163, 144);
-    margin-top:50px;
- 
+    margin-top:30px;
 }
+.container 
+        {
+            width: 100%;
+            padding: 20px;
+            margin: 100px auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 150px;
+        }
+
+        .box
+        {
+            width: 100%;
+            height: auto;
+            margin: 0 10px;
+            box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+            transition: 1s;
+        }
+
+        .box img
+        {
+            display: block;
+            width: 100%;
+            height: 100%;
+            transition: .9s;
+            border-radius: 25px;
+        }
+
+        .box:hover
+        {
+            transform: scale(1.3);
+            z-index: 2;
+        }
 .solutions
 {
     display:flex;
@@ -78,8 +120,9 @@ img
 #container1
 {
     width:100%;
-    height: 150px;
+    height: 170px;
     background-color: lightpink;
+    margin-bottom: 10px;
  
 
 
@@ -89,6 +132,7 @@ img
     height:500px;
     background-color: lightgreen;
     padding: 14px;
+    margin-bottom: 10px;
 
 }
 #container3
@@ -96,6 +140,7 @@ img
     width:100%;
     height:500px;
     background-color: lightgrey;
+    margin-bottom: 10px;
 }
  
 #container4
@@ -103,11 +148,13 @@ img
     width:100%;
     height:500px;
     background-color: lightskyblue;
+    margin-bottom: 10px;
 }
 #container5
 {   width:100%;
     height:500px;
     background-color: lightsalmon;
+    margin-bottom: 10px;
 
 }
 #container6
@@ -115,6 +162,7 @@ img
     width:100%;
     height:500px;
     background-color: lightcoral;
+    margin-bottom: 10px;
 
 }
 p
