@@ -53,6 +53,12 @@ img
     height: 150px;
     float: left;
 }
+hr
+{
+    margin-top: 95px;
+    height: 2px;
+    background-color: royalblue;
+}
 #text
 {
     text-align: center;
