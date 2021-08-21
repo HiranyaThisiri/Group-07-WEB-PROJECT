@@ -55,14 +55,7 @@
     color: white;
     font-size: 30px;
     cursor: pointer;
-}
-.nav-bar .fas
-{
-    margin: 15px 23px;
-    display: block;
     padding: 8px;
-    border-radius: 50%;
-    cursor: pointer;
 }
 
 .contents a
@@ -98,15 +91,18 @@ h3
 
 @media (max-width: 800px)
 {
+
     .banner-title
     {
-        margin: 80px 40px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+        margin-left: 40px;
+        margin-right: 40px;
         position: relative;
     }
     .banner-title h1
     {
-        font-size: 38px;
-        margin-left: -20px;
+        font-size: 35px;
     }
     .container1
     {
