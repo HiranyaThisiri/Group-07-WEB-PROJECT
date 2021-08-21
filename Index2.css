@@ -7,7 +7,8 @@
 #hero
 {
     height: 100vh;
-    background-image:url(https://wallpaperaccess.com/full/2159510.jpg);
+    width: 100%;
+    background-image:linear-gradient(rgba(121, 67, 67, 0.4),rgba(0,0,0,0.3)),url(Images/wall.jpg);
     background-position: center;
     background-size: cover;
     overflow-x: hidden;
