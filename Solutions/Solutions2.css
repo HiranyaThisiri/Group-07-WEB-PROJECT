@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#hero
+{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(121, 67, 67, 0.4),rgba(0,0,0,0.3)),url(https://i.pinimg.com/originals/f5/25/6f/f5256f22b9dea5d4eb80c41f91f87793.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+.nav-bar
+{
+    display: flex;
+    padding: 40px 40px;
+}
+.nav-links
+{
+    flex: 1;
+}
+.banner-title
+{
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 120px;
+    height: 250px;
+    color: white;
+    position: relative;
+}
+.container1
+{
+    height: 700px;
+    background-color: lightseagreen;
+    position: relative;
+}
+.contents
+{
+    flex-basis: 50%;
+    padding: 10px;
+}
+.container2
+{
+    height: 400px;
+    background-color: lightpink;
+    position: relative;
+}
+.container3
+{
+    height: 400px;
+    background-color: lightgreen;
+    position: relative;
+}
