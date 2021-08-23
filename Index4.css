@@ -8,6 +8,7 @@
     .banner-title h1
     {
         font-size: 35px;
+        margin-left: 0px;
     }
     .container1 h1, .container4 h1
     {
@@ -66,6 +67,10 @@
     {
         margin-left: 100px;
     }
+    .container4 .btn1
+    {
+        margin-left: 100px;
+    }
     #c4
     {
         display: none;
@@ -73,6 +78,16 @@
     #c5
     {
         display: none;
+    }
+    .container1 h1
+    {
+        margin-left: 150px;
+    }
+    .container1 p
+    {
+        font-size: 16;
+        margin-right: 40px;
+        margin-left: 40px;
     }
     .container2 p
     {
@@ -82,11 +97,60 @@
         margin-right: 20px;
         margin-left: 20px;
     }
+    .container4 h1
+    {
+        margin-left: 150px;
+    }
+    .container4 p
+    {
+        font-size: 16;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    .container6 h1
+    {
+        margin-left: 50px;
+    }
+    .container6 p
+    {
+        font-size: 14;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+    .container6 p #s1
+    {
+        font-size: 16;
+    }
+    .container6 p #s2
+    {
+        font-size: 16;
+    }
     
 }
 
 @media (max-width: 400px)
 {
+    .container1 .btn1
+    {
+        margin-left: 50px;
+    }
+    .container4 .btn1
+    {
+        margin-left: 50px;
+    }
+
+    .container1 h1
+    {
+        margin-left: 70px;
+    }
+    .container1 p
+    {
+        font-size: 16;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: -10px;
+    }
     .container2 p
     {
         text-align: center;
@@ -96,8 +160,52 @@
         margin-left: 20px;
         margin-top: -20px;
     }
+    .container4 h1
+    {
+        margin-left: 70px;
+    }
+    .container4 p
+    {
+        font-size: 14;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: -20px;
+    }
+    .container6 h1
+    {
+        margin-left: 30px;
+        margin-top: -20px;
+    }
+    .container6 p
+    {
+        font-size: 13;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: -10px;
+        line-height: 1.1;
+    }
+    .container6 p #s1
+    {
+        font-size: 16;
+    }
+    .container6 p #s2
+    {
+        font-size: 16;
+    }
+    .container7 h1
+    {
+        margin-left: 30px;
+        margin-top: 50px;
+    }
     .banner-title h1
     {
         font-size: 32px;
+        margin-left: -10px;
+        margin-right: 10px;
+        margin-top: -10px;
+    }
+    .banner-title
+    {
+        height: 200px;
     }
 }
