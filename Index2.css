@@ -26,15 +26,20 @@
 .banner-title
 {
     margin-left: 40px;
-    margin-top: 30px;
-    margin-bottom: 130px;
+    margin-top: 40px;
+    margin-bottom: 120px;
     height: 180px;
     color: white;
     position: relative;
 }
+.break
+{
+    height: 100px;
+    background-color: white;
+}
 .container1
 {
-    height: 700px;
+    height: 600px;
     background-color: white;
     position: relative;
 }
@@ -45,9 +50,12 @@
 }
 .container2
 {
-    height: 400px;
-    background-color: yellow;
+    height: 300px;
+    background-image: url(Images/Back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
+    max-width: none;
 }
 .container3
 {
@@ -61,7 +69,7 @@
 }
 .container4
 {
-    height: 400px;
+    height: 500px;
     background-color: white;
     position: relative;
 }
@@ -82,10 +90,20 @@
 }
 .container7
 {
+    height: 400px;
+    background-color: white;
+}
+.container8
+{
+    height: 600px;
+    background-color: white;
+}
+.container9
+{
     height: 200px;
     background-color: black;
 }
-.container8
+.container10
 {
     display: flex;
 }
