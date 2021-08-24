@@ -1,3 +1,169 @@
+@media (max-width: 1200px)
+{
+    .container1 .btn1
+    {
+        margin-left: 50px;
+    }
+    .container4 .btn1
+    {
+        margin-left: 50px;
+    }
+
+    .container1 h1
+    {
+        margin-left: 50px;
+    }
+    .container1 p
+    {
+        font-size: 24;
+        margin-right: 70px;
+        margin-left: 70px;
+        margin-top: -10px;
+    }
+    .container2 p
+    {
+        text-align: center;
+        font-weight: bold;
+        font-size: 26;
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-top: 0px;
+    }
+    .container3, .container5
+    {
+        height: 70vh;
+    }
+    .container4 h1
+    {
+        margin-left: 100px;
+    }
+    .container4 p
+    {
+        font-size: 22;
+        margin-right: 70px;
+        margin-left: 70px;
+        margin-top: -20px;
+    }
+    .container6
+    {
+        height: 1020px;
+    }
+    .container6 h1
+    {
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+    .container6 p
+    {
+        font-size: 24;
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-top: -10px;
+    }
+    .container6 p #s1
+    {
+        font-size: 28;
+    }
+    .container6 p #s2
+    {
+        font-size: 28;
+    }
+    .container7 h1
+    {
+        margin-left: 150px;
+        margin-top: 0px;
+    }
+}
+
+
+@media (max-width: 1000px)
+{
+    .banner-title h1
+    {
+        font-size: 35px;
+        margin-left: 0px;
+    }
+    .container1 h1, .container4 h1
+    {
+        margin-left: 80px;
+    }
+    .container7 h1, .container8 h1
+    {
+        margin-left: 60px;
+    }
+    .container1 .btn1
+    {
+        margin-left: 100px;
+    }
+    .container4 .btn1
+    {
+        margin-left: 100px;
+    }
+    #c4
+    {
+        display: none;
+    }
+    #c5
+    {
+        display: none;
+    }
+    .container1 h1
+    {
+        margin-left: 150px;
+    }
+    .container1 p
+    {
+        font-size: 16;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    .container2 p
+    {
+        text-align: center;
+        font-weight: bold;
+        font-size: 16;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .container4 h1
+    {
+        margin-left: 150px;
+    }
+    .container4 p
+    {
+        font-size: 16;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    .container5, .container3
+    {
+        height: 60vh;
+    }
+    .container6
+    {
+        height: 620px;
+    }
+    .container6 h1
+    {
+        margin-left: 50px;
+    }
+    .container6 p
+    {
+        font-size: 16;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+    .container6 p #s1
+    {
+        font-size: 16;
+    }
+    .container6 p #s2
+    {
+        font-size: 16;
+    }
+    
+}
 @media (max-width: 800px)
 {
 
@@ -107,6 +273,14 @@
         margin-right: 40px;
         margin-left: 40px;
     }
+    .container5, .container3
+    {
+        height: 60vh;
+    }
+    .container6
+    {
+        height: 600px;
+    }
     .container6 h1
     {
         margin-left: 50px;
@@ -129,7 +303,190 @@
     
 }
 
-@media (max-width: 400px)
+@media (max-width: 500px)
+{
+    .container1 h1
+    {
+        margin-left: 150px;
+        font-size: 40;
+    }
+    .container1 p
+    {
+        font-size: 18;
+        margin-right: 70px;
+        margin-left: 70px;
+        margin-top: -10px;
+    }
+    .container2 p
+    {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20;
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-top: 0px;
+    }
+    .container3, .container5
+    {
+        height: 70vh;
+    }
+    .container4 h1
+    {
+        margin-left: 100px;
+        font-size: 40;
+    }
+    .container4 p
+    {
+        font-size: 22;
+        margin-right: 70px;
+        margin-left: 70px;
+        margin-top: -20px;
+    }
+    .container6
+    {
+        height: 1000px;
+    }
+    .container6 h1
+    {
+        margin-left: 30px;
+        margin-top: 10px;
+        font-size: 40;
+    }
+    .container6 p
+    {
+        font-size: 18;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: -10px;
+        line-height: 1.2;
+    }
+    .container6 p #s1
+    {
+        font-size: 22;
+    }
+    .container6 p #s2
+    {
+        font-size: 22;
+    }
+    .container7 h1
+    {
+        margin-left: 150px;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 420px)
+{
+    .banner-title h1
+    {
+        font-size: 32px;
+        margin-left: -10px;
+        margin-right: 10px;
+    }
+    .banner-title
+    {
+        height: 150px;
+    }
+    .container1 .btn1
+    {
+        margin-left: 50px;
+    }
+    .container4 .btn1
+    {
+        margin-left: 50px;
+    }
+
+    .container1 h1
+    {
+        margin-left: 70px;
+    }
+    .container1 p
+    {
+        font-size: 16;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: -10px;
+    }
+    .container2
+    {
+        height: 280px;
+    }
+    .container2 p
+    {
+        text-align: center;
+        font-weight: bold;
+        font-size: 18;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: -20px;
+    }
+    .container3, .container5
+    {
+        height: 90vh;
+    }
+    .container4
+    {
+        height: 450px;
+    }
+    .container4 h1
+    {
+        margin-left: 70px;
+    }
+    .container4 p
+    {
+        font-size: 16;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: -20px;
+    }
+    .container6
+    {
+        height: 900px;
+    }
+    .container6 h1
+    {
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+    .container6 p
+    {
+        font-size: 14;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: -10px;
+        line-height: 1.2;
+    }
+    .container6 p #s1
+    {
+        font-size: 16;
+    }
+    .container6 p #s2
+    {
+        font-size: 16;
+    }
+    .container7 h1
+    {
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+    .container9
+    {
+        height: 600px;
+    }
+    .container10
+    {
+        display: inline-block;
+    }
+    #c1, #c2, #c3
+    {
+        height: 150px;
+        margin-left: 80px;
+    }
+}
+
+
+
+@media (max-width: 300px)
 {
     .container1 .btn1
     {
@@ -171,10 +528,14 @@
         margin-left: 20px;
         margin-top: -20px;
     }
+    .container6
+    {
+        height: 850px;
+    }
     .container6 h1
     {
         margin-left: 30px;
-        margin-top: -20px;
+        margin-top: 0px;
     }
     .container6 p
     {
@@ -195,7 +556,20 @@
     .container7 h1
     {
         margin-left: 30px;
-        margin-top: 50px;
+        margin-top: 0px;
+    }
+    .container9
+    {
+        height: 600px;
+    }
+    .container10
+    {
+        display: inline-block;
+    }
+    #c1, #c2, #c3
+    {
+        height: 150px;
+        margin-left: 50px;
     }
     .banner-title h1
     {
@@ -208,4 +582,202 @@
     {
         height: 200px;
     }
+}
+
+@media (max-width: 250px)
+{
+    .banner-title h1
+    {
+        font-size: 28px;
+        margin-left: -10px;
+        margin-right: 10px;
+        margin-top: -10px;
+    }
+    .banner-title
+    {
+        height: 200px;
+    }
+    .container1 .btn1
+    {
+        margin-left: 50px;
+    }
+    .container4 .btn1
+    {
+        margin-left: 50px;
+    }
+
+    .container1 h1
+    {
+        margin-left: 70px;
+    }
+    .container1 p
+    {
+        font-size: 16;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: -10px;
+    }
+    .container2 p
+    {
+        text-align: center;
+        font-weight: bold;
+        font-size: 14;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: -20px;
+    }
+    .container4 h1
+    {
+        margin-left: 50px;
+    }
+    .container4 p
+    {
+        font-size: 14;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: -20px;
+    }
+    .container6
+    {
+        height: 830px;
+    }
+    .container6 h1
+    {
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+    .container6 p
+    {
+        font-size: 12;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: -10px;
+        line-height: 1.1;
+    }
+    .container6 p #s1
+    {
+        font-size: 16;
+    }
+    .container6 p #s2
+    {
+        font-size: 16;
+    }
+    .container7 h1
+    {
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+    .container9
+    {
+        height: 600px;
+    }
+    .container10
+    {
+        display: inline-block;
+    }
+    #c1, #c2, #c3
+    {
+        height: 150px;
+        margin-left: 50px;
+    }
+    
+}
+
+@media (max-width: 200px)
+{
+    .banner-title h1
+    {
+        font-size: 26px;
+        margin-left: -20px;
+        margin-right: 0px;
+        margin-top: -10px;
+    }
+    .banner-title
+    {
+        height: 180px;
+    }
+    .container1 .btn1
+    {
+        margin-left: 50px;
+    }
+    .container4 .btn1
+    {
+        margin-left: 50px;
+    }
+
+    .container1 h1
+    {
+        margin-left: 50px;
+    }
+    .container1 p
+    {
+        font-size: 15;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+    .container2 p
+    {
+        text-align: center;
+        font-weight: bold;
+        font-size: 14;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: -20px;
+    }
+    .container4 h1
+    {
+        margin-left: 40px;
+    }
+    .container4 p
+    {
+        font-size: 13;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: -20px;
+    }
+    .container6
+    {
+        height: 850px;
+    }
+    .container6 h1
+    {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .container6 p
+    {
+        font-size: 11;
+        margin-right: -5px;
+        margin-left: -5px;
+        margin-top: -10px;
+        line-height: 1.1;
+    }
+    .container6 p #s1
+    {
+        font-size: 14;
+    }
+    .container6 p #s2
+    {
+        font-size: 14;
+    }
+    .container7 h1
+    {
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+    .container9
+    {
+        height: 600px;
+    }
+    .container10
+    {
+        display: inline-block;
+    }
+    #c1, #c2, #c3
+    {
+        height: 150px;
+        margin-left: 50px;
+    }
+    
 }
