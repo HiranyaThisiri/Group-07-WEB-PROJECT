@@ -39,7 +39,7 @@
 }
 .container1
 {
-    height: 600px;
+    height: 650px;
     background-color: white;
     position: relative;
 }
@@ -67,7 +67,7 @@
 }
 .container4
 {
-    height: 500px;
+    height: 450px;
     background-color: white;
     position: relative;
 }
@@ -88,11 +88,6 @@
 .container7
 {
     height: 400px;
-    background-color: white;
-}
-.container8
-{
-    height: 600px;
     background-color: white;
 }
 .container9

@@ -84,7 +84,8 @@
 .container1 p
 {
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 350px;
+    margin-left: 250px;
+    margin-right: 250px;
     margin-top: 30px;
     font-size: 22;
 }
@@ -108,10 +109,10 @@
 .container4 p
 {
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 250px;
-    margin-right: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
     margin-top: 30px;
-    font-size: 22;
+    font-size: 20;
 }
 .container4 h1
 {
@@ -130,7 +131,7 @@
 .container6 h1
 {
     margin-top: 40px;
-    margin-left: 100px;
+    margin-left: 200px;
 }
 .container6 p #s1
 {
@@ -141,11 +142,6 @@
     font-size: 22;
 }
 .container7 h1
-{
-    margin-top: 40px;
-    margin-left: 200px;
-}
-.container8 h1
 {
     margin-top: 40px;
     margin-left: 200px;
