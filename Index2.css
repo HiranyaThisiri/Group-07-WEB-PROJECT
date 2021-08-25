@@ -8,7 +8,7 @@
 {
     height: 100vh;
     width: 100%;
-    background-image:linear-gradient(rgba(121, 67, 67, 0.4),rgba(0,0,0,0.3)),url(Images/wall.jpg);
+    background-image:linear-gradient(rgba(121, 67, 67, 0.4),rgba(0,0,0,0.3)),url(https://i.pinimg.com/originals/f5/25/6f/f5256f22b9dea5d4eb80c41f91f87793.jpg);
     background-position: center;
     background-size: cover;
     overflow-x: hidden;

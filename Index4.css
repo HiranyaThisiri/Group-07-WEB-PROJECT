@@ -2,22 +2,22 @@
 {
     .container1 .btn1
     {
-        margin-left: 50px;
+        margin-left: 200px;
     }
     .container4 .btn1
     {
-        margin-left: 50px;
+        margin-left: 200px;
     }
 
     .container1 h1
     {
-        margin-left: 50px;
+        margin-left: 250px;
     }
     .container1 p
     {
         font-size: 24;
-        margin-right: 70px;
-        margin-left: 70px;
+        margin-right: 200px;
+        margin-left: 200px;
         margin-top: -10px;
     }
     .container2 p
@@ -35,38 +35,38 @@
     }
     .container4 h1
     {
-        margin-left: 100px;
+        margin-left: 200px;
     }
     .container4 p
     {
         font-size: 22;
-        margin-right: 70px;
-        margin-left: 70px;
+        margin-right: 100px;
+        margin-left: 100px;
         margin-top: -20px;
     }
     .container6
     {
-        height: 1020px;
+        height: 900px;
     }
     .container6 h1
     {
-        margin-left: 100px;
-        margin-top: 10px;
+        margin-left: 150px;
+        margin-top: 50px;
     }
     .container6 p
     {
-        font-size: 24;
-        margin-right: 50px;
-        margin-left: 50px;
+        font-size: 20;
+        margin-right: 100px;
+        margin-left: 100px;
         margin-top: -10px;
     }
     .container6 p #s1
     {
-        font-size: 28;
+        font-size: 24;
     }
     .container6 p #s2
     {
-        font-size: 28;
+        font-size: 24;
     }
     .container7 h1
     {
@@ -141,7 +141,7 @@
     }
     .container6
     {
-        height: 620px;
+        height: 670px;
     }
     .container6 h1
     {
@@ -279,7 +279,7 @@
     }
     .container6
     {
-        height: 650px;
+        height: 700px;
     }
     .container6 h1
     {
@@ -344,7 +344,7 @@
     }
     .container6
     {
-        height: 1000px;
+        height: 1100px;
     }
     .container6 h1
     {
@@ -441,7 +441,7 @@
     }
     .container6
     {
-        height: 900px;
+        height: 800px;
     }
     .container6 h1
     {
@@ -484,7 +484,21 @@
     }
 }
 
+@media (max-width: 400px)
+{
+    .container6
+    {
+        height: 870px;
+    }
+}
 
+@media (max-width: 350px)
+{
+    .container6
+    {
+        height: 1000;
+    }
+}
 
 @media (max-width: 300px)
 {
