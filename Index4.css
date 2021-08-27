@@ -1,5 +1,9 @@
 @media (max-width: 1200px)
 {
+    .banner-title
+    {
+        height: 300px;
+    }
     .container1 .btn1
     {
         margin-left: 200px;
@@ -81,11 +85,16 @@
 
 @media (max-width: 1000px)
 {
+    .banner-title
+    {
+        height: 200px;
+    }
     .banner-title h1
     {
+        margin-top: 50px;
         margin-left: 40px;
         margin-right: 80px;
-        font-size: 50px;
+        font-size: 58px;
         margin-left: 0px;
     }
     .container1 h1, .container4 h1
@@ -196,8 +205,10 @@
     }
     .banner-title h1
     {
-        font-size: 42px;
+        font-size: 52px;
         margin-left: 0px;
+        margin-left: 40px;
+        margin-right: 40px;
     }
     .container1 h1, .container4 h1
     {
@@ -331,6 +342,10 @@
 
 @media (max-width: 700px)
 {
+    .banner-title
+    {
+        height: 220px;
+    }
     .container6
     {
         height: 850px;
@@ -339,6 +354,14 @@
 
 @media (max-width: 550px)
 {
+    .banner-title
+    {
+        height: 250px;
+    }
+    .banner-title h1
+    {
+        margin-left: 20px;
+    }
     .container2
     {
         height: 300px;
@@ -371,11 +394,11 @@
 {
     .banner-title
     {
-        height: 280px;
+        height: 300px;
     }
     .banner-title h1
     {
-        font-size: 40;
+        font-size: 48;
     }
     .container1
     {
@@ -457,13 +480,26 @@
         margin-left: 150px;
         margin-top: 0px;
     }
+    .container9
+    {
+        height: 600px;
+    }
+    .container10
+    {
+        display: inline-block;
+    }
+    #c1, #c2, #c3
+    {
+        height: 150px;
+        margin-left: 120px;
+    }
 }
 
 @media (max-width: 420px)
 {
     .banner-title h1
     {
-        font-size: 32px;
+        font-size: 38px;
         margin-left: -10px;
         margin-right: 10px;
     }
@@ -556,19 +592,11 @@
         margin-left: 30px;
         margin-top: 0px;
     }
-    .container9
-    {
-        height: 600px;
-    }
-    .container10
-    {
-        display: inline-block;
-    }
     #c1, #c2, #c3
     {
-        height: 150px;
-        margin-left: 80px;
+        margin-left: 100px;
     }
+    
 }
 
 @media (max-width: 400px)
@@ -585,10 +613,18 @@
     {
         height: 870px;
     }
+    #c1, #c2, #c3
+    {
+        margin-left: 80px;
+    }
 }
 
 @media (max-width: 350px)
 {
+    .banner-title
+    {
+        height: 250px;
+    }
     .container3
     {
         height: 500px;
@@ -704,14 +740,14 @@
     }
     .banner-title h1
     {
-        font-size: 32px;
+        font-size: 36px;
         margin-left: -10px;
         margin-right: 10px;
         margin-top: -10px;
     }
     .banner-title
     {
-        height: 200px;
+        height: 220px;
     }
 }
 
@@ -719,14 +755,14 @@
 {
     .banner-title h1
     {
-        font-size: 28px;
+        font-size: 32px;
         margin-left: -10px;
         margin-right: 10px;
         margin-top: -10px;
     }
     .banner-title
     {
-        height: 200px;
+        height: 220px;
     }
     .container1 .btn1
     {
@@ -832,14 +868,14 @@
 {
     .banner-title h1
     {
-        font-size: 26px;
+        font-size: 30px;
         margin-left: -20px;
         margin-right: 0px;
         margin-top: -10px;
     }
     .banner-title
     {
-        height: 180px;
+        height: 220px;
     }
     .container1 .btn1
     {
