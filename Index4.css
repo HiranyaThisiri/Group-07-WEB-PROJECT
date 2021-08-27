@@ -980,3 +980,120 @@
     }
     
 }
+
+@media (max-width: 200px)
+{
+    .banner-title h1
+    {
+        font-size: 25px;
+        margin-left: -20px;
+        margin-right: 10px;
+        margin-top: -10px;
+    }
+    .banner-title
+    {
+        height: 220px;
+    }
+    .container1 .btn1
+    {
+        margin-left: 50px;
+    }
+    .container4 .btn1
+    {
+        margin-left: 50px;
+    }
+    .container1
+    {
+        height: 750px;
+    }
+    .container1 h1
+    {
+        margin-left: 20px;
+        font-size: 24;
+    }
+    .container1 p
+    {
+        font-size: 13;
+        margin-right: 2px;
+        margin-left: 2px;
+        margin-top: -10px;
+    }
+    .container2
+    {
+        height: 400px;
+    }
+    .container2 p
+    {
+        text-align: center;
+        font-weight: bold;
+        font-size: 13;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: -20px;
+    }
+    .container3
+    {
+        height: 500px;
+    }
+    .container4
+    {
+        height: 750px;
+    }
+    .container4 h1
+    {
+        margin-left: 20px;
+        font-size: 24;
+    }
+    .container4 p
+    {
+        font-size: 13;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: -20px;
+    }
+    .container6
+    {
+        height: 1200px;
+    }
+    .container6 h1
+    {
+        margin-left: 5px;
+        margin-top: 5px;
+        font-size: 24;
+    }
+    .container6 p
+    {
+        font-size: 11;
+        margin-right: -5px;
+        margin-left: -5px;
+        margin-top: -10px;
+        line-height: 1.2;
+    }
+    .container6 p #s1
+    {
+        font-size: 14;
+    }
+    .container6 p #s2
+    {
+        font-size: 14;
+    }
+    .container7 h1
+    {
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+    .container9
+    {
+        height: 600px;
+    }
+    .container10
+    {
+        display: inline-block;
+    }
+    #c1, #c2, #c3
+    {
+        height: 150px;
+        margin-left: 15px;
+    }
+    
+}
