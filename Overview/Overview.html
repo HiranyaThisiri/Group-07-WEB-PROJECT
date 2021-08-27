@@ -1,62 +1,132 @@
 <html>
     <head>
         <title>Overview</title>
-        <link rel="stylesheet" type="text/css" href="Overview.css" />
-       <link rel="shortcut icon" type="image" href="..\Images\MicrosoftTeams-image (9).png" /> 
 
+        <meta name="viewport" content="device-width,initial-scale=1">
+
+        <link rel="stylesheet" href="Overview1.css">
+        <link rel="stylesheet" href="Overview2.css">
+        <link rel="stylesheet" href="Overview3.css">
+        <link rel="stylesheet" href="Overview4.css">
+
+        <script src="https://kit.fontawesome.com/a54d2cbf95.js" ></script>
+
+        <link rel="shortcut icon" type="image" href="../Images/MicrosoftTeams-image (9).png" />
+        
     </head>
     <body>
-            <div id="container1">
-                <div id="container1a">
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../Problems/problem.html">Problems</a></li>
-                    <li><a href="../Solutions/Solutions.html">Solutions</a></li>
-                    <li><a href="../Overview/Overview.html"class="Overviewtab">Overview</a></li>
-                    <li><a href="../Suggestions/Suggestions.html">Suggestions</a></li>
-                </ul>
+        <div id="hero">
+            <div class="nav-bar">
+                    <div class="nav-logo">
+                        <button class="btn button1"></button>
+                    </div>
+                    <div class="nav-links" id="nav-links">
 
-                <img src="../Images/MicrosoftTeams-image (10).png" alt="">
+                        <i id="to-top" class="fas fa-times-circle" onclick="closeMenu()"></i>
+
+                        <ul>
+                            <li><a id="link1" href="../index.html">Home</a></li>
+                            <li><a id="link1" href="../Problems/problem.html">Problems</a></li>
+                            <li><a id="link1" href="../Solutions/Solutions.html">Solutions</a></li>
+                            <li><a id="link1" href=" " class="overviewtab" >Overview</a></li>
+                            <li><a id="link1" href="../Suggestions/Suggestions.html">Suggestions</a></li>
+                        </ul>
+                    </div>
+
+                    <i id="to-top" class="fas fa-bars" onclick="showMenu()"></i>
+
+            </div>
+
+            <div class="banner-title">
+                <h2>OVERVIEW</h2>
+                <h2>OVERVIEW</h2>
+            </div>
+            
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+
+                <defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" /></defs>
+  
+                <g class="parallax">
+  
+                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+  
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+  
+                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+  
+                    <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+  
+                </g>
+  
+              </svg>
+
+            <div class="container1">
+                <div class="contents">
+                    <h1>What is Water Pollution ?</h1>
+                    <div id="yt_vd">
+                        <center><embed style="width: 1400px; height:500px" src="https://www.youtube.com/embed/Om42Lppkd9w"></embed></center>
+                        </div>
+                        
+                        <button type="button" class="btn1">EXPLORE</button>
                 </div>
-                
-                <div id="yt_vd">
-	            <embed style="width:720px; height:450px" src="https://www.youtube.com/embed/Om42Lppkd9w"></embed>
-	            </div>
+            </div>
 
-                <div id="container1b">
-
-                <h1></h1>
+            <div class="container2">
+                <div class="contents">
+                    <h1>Test2</h1>
+                    <p id="para2">ABCD
+                        </p>
+                        <button type="button" class="btn1">EXPLORE</button>
                 </div>
             </div>
 
-            <div id="container2">
+            <div class="container3">
+                <div class="contents">
+                    <h1>Test3</h1>
+                  <p id="para3">
+                    &nbsp; &nbsp; &nbsp;ABCD
+                  </p>
+                  <button type="button" class="btn1">EXPLORE</button>
+                </div>
+            </div>
+            
+            <div class="container7">
+                <div class="contents">
+                    <div id="c4">
+                      </div>
+                    <div id="c1">
+                        <button type="button" class="btn2">Contact</button>
+                      </div>
+      
+                    <div id="c2">
+                        <button type="button" class="btn3">About</button>
+                      </div>
+      
+                    <div id="c3">
+                        <button type="button" class="btn4">Get Involved</button>
+                      </div>
+                      <div id="c5">
+                      </div>
+                </div>
             </div>
 
-            <div id="container3">
-            </div>
+        </div>
 
-            <div id="container4">
-            </div>
 
-            <div id="container5">
-                <div class="inner" id="fourth">
-                  </div>
+        <script src="Overview.js"></script> 
 
-                <div class="inner" id="first">
-                    <h3>Contact</h3>
-                  </div>
-  
-                <div class="inner" id="second">
-                    <h3>About</h3>
-                  </div>
-  
-                <div class="inner" id="third">
-                    <h3>Get Involved</h3>
-                  </div>
-  
-                <div class="inner" id="fourth">
-                  </div>
-            </div>
+      <script>
+          var show = document.getElementById("nav-links")
+          function showMenu()
+          {
+               show.style.right="0";
+          }
+          function closeMenu()
+          {
+               show.style.right="-200px";
+          }
+      </script>
+
 
     </body>
 </html>
