@@ -10,7 +10,7 @@
     }
     .container1
     {
-        height: 770px;
+        height: 850px;
     }
     .container1 h1
     {
@@ -32,9 +32,9 @@
         margin-left: 50px;
         margin-top: 0px;
     }
-    .container3, .container5
+    .container3
     {
-        height: 70vh;
+        height: 600px;
     }
     .container4 h1
     {
@@ -83,7 +83,9 @@
 {
     .banner-title h1
     {
-        font-size: 35px;
+        margin-left: 40px;
+        margin-right: 80px;
+        font-size: 50px;
         margin-left: 0px;
     }
     .container1 h1, .container4 h1
@@ -116,7 +118,8 @@
     }
     .container1 h1
     {
-        margin-left: 250px;
+        margin-left: 200px;
+        font-weight: bold;
     }
     .container1 p
     {
@@ -128,13 +131,14 @@
     {
         text-align: center;
         font-weight: bold;
-        font-size: 16;
+        font-size: 26;
         margin-right: 20px;
         margin-left: 20px;
     }
     .container4 h1
     {
-        margin-left: 150px;
+        margin-left: 200px;
+        font-weight: bold;
     }
     .container4 p
     {
@@ -148,29 +152,41 @@
     }
     .container6
     {
-        height: 670px;
+        height: 950px;
     }
     .container6 h1
     {
         margin-left: 50px;
+        margin-right: 50px;
+        font-weight: bold;
+        text-align: center;
     }
     .container6 p
     {
-        font-size: 16;
-        margin-right: 10px;
-        margin-left: 10px;
+        font-size: 20;
+        margin-right: 50px;
+        margin-left: 50px;
         margin-top: -10px;
     }
     .container6 p #s1
     {
-        font-size: 16;
+        font-size: 24;
     }
     .container6 p #s2
     {
-        font-size: 16;
+        font-size: 26;
     }
     
 }
+
+@media (max-width: 900px)
+{
+    .container6
+    {
+        height: 1050px;
+    }
+}
+
 @media (max-width: 800px)
 {
 
@@ -180,7 +196,7 @@
     }
     .banner-title h1
     {
-        font-size: 35px;
+        font-size: 42px;
         margin-left: 0px;
     }
     .container1 h1, .container4 h1
@@ -254,7 +270,8 @@
     }
     .container1 h1
     {
-        margin-left: 150px;
+        margin-left: 200px;
+        font-size: 30;
     }
     .container1 p
     {
@@ -266,13 +283,14 @@
     {
         text-align: center;
         font-weight: bold;
-        font-size: 16;
+        font-size: 24;
         margin-right: 20px;
         margin-left: 20px;
     }
     .container4 h1
     {
-        margin-left: 150px;
+        margin-left: 200px;
+        font-size: 30;
     }
     .container4 p
     {
@@ -280,38 +298,85 @@
         margin-right: 40px;
         margin-left: 40px;
     }
-    .container5, .container3
+    .container3
     {
-        height: 80vh;
+        height: 500px;
     }
     .container6
     {
-        height: 700px;
+        height: 850px;
     }
     .container6 h1
     {
-        margin-left: 50px;
+        text-align: center;
+        font-size: 30;
     }
     .container6 p
     {
-        font-size: 14;
+        font-size: 18;
         margin-right: 10px;
         margin-left: 10px;
         margin-top: -10px;
     }
     .container6 p #s1
     {
-        font-size: 16;
+        font-size: 22;
     }
     .container6 p #s2
     {
-        font-size: 16;
+        font-size: 20;
     }
     
 }
 
+@media (max-width: 700px)
+{
+    .container6
+    {
+        height: 850px;
+    }
+}
+
+@media (max-width: 550px)
+{
+    .container2
+    {
+        height: 300px;
+    }
+    .container2 p
+    {
+        font-size: 20;
+    }
+    .container3
+    {
+        height: 500px;
+    }
+    .container4
+    {
+        height: 470px;
+    }
+    .container4 p
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 18;
+    }
+    .container6
+    {
+        height: 950px;
+    }
+}
+
 @media (max-width: 500px)
 {
+    .banner-title
+    {
+        height: 280px;
+    }
+    .banner-title h1
+    {
+        font-size: 40;
+    }
     .container1
     {
         height: 780px;
@@ -319,7 +384,7 @@
     .container1 h1
     {
         margin-left: 150px;
-        font-size: 40;
+        font-size: 30;
     }
     .container1 p
     {
@@ -327,6 +392,10 @@
         margin-right: 40px;
         margin-left: 40px;
         margin-top: -10px;
+    }
+    .container2
+    {
+        height: 350px;
     }
     .container2 p
     {
@@ -337,9 +406,9 @@
         margin-left: 50px;
         margin-top: 0px;
     }
-    .container3, .container5
+    .container3
     {
-        height: 70vh;
+        height: 500px;
     }
     .container4
     {
@@ -348,7 +417,7 @@
     .container4 h1
     {
         margin-left: 100px;
-        font-size: 40;
+        font-size: 30;
     }
     .container4 p
     {
@@ -359,13 +428,13 @@
     }
     .container6
     {
-        height: 1100px;
+        height: 1180px;
     }
     .container6 h1
     {
         margin-left: 30px;
         margin-top: 10px;
-        font-size: 40;
+        font-size: 30;
     }
     .container6 p
     {
@@ -438,13 +507,13 @@
         margin-left: 20px;
         margin-top: -20px;
     }
-    .container3, .container5
+    .container3
     {
-        height: 90vh;
+        height: 500px;
     }
     .container4
     {
-        height: 450px;
+        height: 500px;
     }
     .container4 h1
     {
@@ -459,7 +528,7 @@
     }
     .container6
     {
-        height: 800px;
+        height: 850px;
     }
     .container6 h1
     {
@@ -504,6 +573,14 @@
 
 @media (max-width: 400px)
 {
+    .container3
+    {
+        height: 500px;
+    }
+    .container4
+    {
+        height: 550px;
+    }
     .container6
     {
         height: 870px;
@@ -512,6 +589,14 @@
 
 @media (max-width: 350px)
 {
+    .container3
+    {
+        height: 500px;
+    }
+    .container4
+    {
+        height: 600px;
+    }
     .container6
     {
         height: 1000;
@@ -535,6 +620,7 @@
     .container1 h1
     {
         margin-left: 70px;
+        font-size: 25;
     }
     .container1 p
     {
@@ -552,25 +638,35 @@
         margin-left: 20px;
         margin-top: -20px;
     }
+    .container3
+    {
+        height: 500px;
+    }
     .container4 h1
     {
-        margin-left: 70px;
+        margin-left: 30px;
+        font-size: 25;
+    }
+    .container4
+    {
+        height: 500px;
     }
     .container4 p
     {
-        font-size: 14;
-        margin-right: 20px;
-        margin-left: 20px;
+        font-size: 13;
+        margin-right: 5px;
+        margin-left: 5px;
         margin-top: -20px;
     }
     .container6
     {
-        height: 950px;
+        height: 1000px;
     }
     .container6 h1
     {
         margin-left: 30px;
         margin-top: 0px;
+        font-size: 25;
     }
     .container6 p
     {
@@ -647,6 +743,7 @@
     .container1 h1
     {
         margin-left: 40px;
+        font-size: 22;
     }
     .container1 p
     {
@@ -664,9 +761,18 @@
         margin-left: 5px;
         margin-top: -20px;
     }
+    .container3
+    {
+        height: 500px;
+    }
+    .container4
+    {
+        height: 700px;
+    }
     .container4 h1
     {
-        margin-left: 50px;
+        margin-left: 20px;
+        font-size: 22;
     }
     .container4 p
     {
@@ -677,12 +783,13 @@
     }
     .container6
     {
-        height: 910px;
+        height: 930px;
     }
     .container6 h1
     {
         margin-left: 10px;
         margin-top: 0px;
+        font-size: 22;
     }
     .container6 p
     {
@@ -749,6 +856,7 @@
     .container1 h1
     {
         margin-left: 20px;
+        font-size: 24;
     }
     .container1 p
     {
@@ -770,10 +878,18 @@
         margin-left: 5px;
         margin-top: -20px;
     }
+    .container3
+    {
+        height: 500px;
+    }
+    .container4
+    {
+        height: 650px;
+    }
     .container4 h1
     {
         margin-left: 20px;
-        font-size: 32;
+        font-size: 24;
     }
     .container4 p
     {
@@ -788,9 +904,9 @@
     }
     .container6 h1
     {
-        margin-left: 5px;
+        margin-left: 15px;
         margin-top: 5px;
-        font-size: 26;
+        font-size: 24;
     }
     .container6 p
     {
