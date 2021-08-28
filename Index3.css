@@ -1,3 +1,14 @@
+.container8 .top
+{
+    border-radius: 5px;
+    position: absolute;
+    right: 5px;
+}
+.container8 .top img
+{
+    height: 30px;
+    width: 30px;
+}
 .btn
 {
     box-shadow: 0 10px 20px gray;
@@ -312,6 +323,10 @@ p {
     display: flex;
     flex-direction: column;
     transition: 0.5s ease;
+}
+.media-icons a
+{
+    text-decoration: none;
 }
 .wrapper .button
 {
