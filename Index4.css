@@ -274,7 +274,7 @@
     }
     .nav-links
     {
-        height: 90vh;
+        height: 50vh;
         width: 200px;
         background: black;
         border-radius: 10px;
@@ -955,7 +955,7 @@
     }
     .banner-title
     {
-        height: 150px;
+        height: 300px;
     }
     .media-icons
     {
@@ -1020,7 +1020,7 @@
     }
     .container6
     {
-        height: 940px;
+        height: 1040px;
     }
     .container6 h1
     {
@@ -1065,7 +1065,7 @@
     
 }
 
-@media (max-width: 200px)
+@media (max-width: 150px)
 {
     .banner-title h1
     {
