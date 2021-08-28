@@ -690,11 +690,11 @@
 {
     .banner-title
     {
-        height: 300px;
+        height: 350px;
     }
     .media-icons 
     {
-        top: 510px;
+        top: 540px;
     }
     .container3
     {
@@ -712,6 +712,21 @@
 
 @media (max-width: 300px)
 {
+    .banner-title h1
+    {
+        font-size: 36px;
+        margin-left: -10px;
+        margin-right: 10px;
+        margin-top: -10px;
+    }
+    .banner-title
+    {
+        height: 330px;
+    }
+    .media-icons 
+    {
+        top: 510px;
+    }
     .container1 .btn1
     {
         margin-left: 50px;
@@ -809,17 +824,7 @@
         height: 150px;
         margin-left: 50px;
     }
-    .banner-title h1
-    {
-        font-size: 36px;
-        margin-left: -10px;
-        margin-right: 10px;
-        margin-top: -10px;
-    }
-    .banner-title
-    {
-        height: 220px;
-    }
+    
 }
 
 @media (max-width: 250px)
@@ -833,7 +838,11 @@
     }
     .banner-title
     {
-        height: 220px;
+        height: 380px;
+    }
+    .media-icons
+    {
+        margin-top: 0px;
     }
     .container1 .btn1
     {
@@ -939,14 +948,18 @@
 {
     .banner-title h1
     {
-        font-size: 30px;
+        font-size: 34px;
         margin-left: -20px;
         margin-right: 0px;
         margin-top: -10px;
     }
     .banner-title
     {
-        height: 220px;
+        height: 150px;
+    }
+    .media-icons
+    {
+        display: none;
     }
     .container1 .btn1
     {
