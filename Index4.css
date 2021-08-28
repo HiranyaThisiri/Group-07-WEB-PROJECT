@@ -4,6 +4,15 @@
     {
         height: 300px;
     }
+    .banner-title h1
+    {
+        margin-left: 40px;
+        margin-right: 250px;
+    }
+    .media-icons 
+    {
+        top: 240px;
+    }
     .container1 .btn1
     {
         margin-left: 200px;
@@ -96,6 +105,15 @@
         margin-right: 80px;
         font-size: 58px;
         margin-left: 0px;
+    }
+    .media-icons 
+    {
+        top: 480px;
+    }
+    .wrapper .button
+    {
+        display: inline-block;
+        margin-left: 10px;
     }
     .container1 h1, .container4 h1
     {
@@ -190,6 +208,20 @@
 
 @media (max-width: 900px)
 {
+    .banner-title
+    {
+        height: 200px;
+    }
+    .banner-title h1
+    {
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 55;
+    }
+    .media-icons 
+    {
+        top: 500px;
+    }
     .container6
     {
         height: 1050px;
@@ -202,13 +234,18 @@
     .banner-title
     {
         position: relative;
+        height: 250px;
     }
     .banner-title h1
     {
-        font-size: 52px;
+        font-size: 55px;
         margin-left: 0px;
         margin-left: 40px;
         margin-right: 40px;
+    }
+    .media-icons
+    {
+        top: 450px;
     }
     .container1 h1, .container4 h1
     {
@@ -344,7 +381,17 @@
 {
     .banner-title
     {
-        height: 220px;
+        height: 300px;
+    }
+    .banner-title h1
+    {
+        font-size: 53;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .media-icons
+    {
+        top: 490px;
     }
     .container6
     {
@@ -356,11 +403,15 @@
 {
     .banner-title
     {
-        height: 250px;
+        height: 350px;
     }
     .banner-title h1
     {
         margin-left: 20px;
+    }
+    .media-icons
+    {
+        top: 530px;
     }
     .container2
     {
@@ -394,11 +445,15 @@
 {
     .banner-title
     {
-        height: 300px;
+        height: 350px;
     }
     .banner-title h1
     {
         font-size: 48;
+    }
+    .media-icons
+    {
+        top: 550px;
     }
     .container1
     {
@@ -499,13 +554,17 @@
 {
     .banner-title h1
     {
-        font-size: 38px;
+        font-size: 40px;
         margin-left: -10px;
         margin-right: 10px;
     }
     .banner-title
     {
-        height: 150px;
+        height: 250px;
+    }
+    .media-icons
+    {
+        top: 450px;
     }
     .container1 .btn1
     {
@@ -601,6 +660,14 @@
 
 @media (max-width: 400px)
 {
+    .banner-title
+    {
+        height: 250px;
+    }
+    .media-icons
+    {
+        top: 460px;
+    }
     .container3
     {
         height: 500px;
@@ -623,7 +690,11 @@
 {
     .banner-title
     {
-        height: 250px;
+        height: 300px;
+    }
+    .media-icons 
+    {
+        top: 510px;
     }
     .container3
     {
