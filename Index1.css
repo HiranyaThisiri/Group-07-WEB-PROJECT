@@ -160,5 +160,10 @@
     margin-top: 40px;
     margin-left: 200px;
 }
-
+.container12 img
+{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
 
