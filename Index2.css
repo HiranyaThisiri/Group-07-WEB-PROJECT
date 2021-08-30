@@ -39,7 +39,7 @@
 }
 .container1
 {
-    height: 800px;
+    height: 700px;
     background-color: white;
     position: relative;
 }
@@ -58,7 +58,7 @@
 }
 .container3
 {
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,8 +86,8 @@
 }
 .container7
 {
-    height: 400px;
-    background-color: white;
+    height: 450px;
+    background-color: yellow;
 }
 .container8
 {
@@ -105,12 +105,11 @@
 }
 .container11
 {
-    height: 500px;
+    height: 700px;
     background-color: white;
 }
 .container12
 {
-    height: 400px;
     margin-left: 200px;
     margin-right: 200px;
 }

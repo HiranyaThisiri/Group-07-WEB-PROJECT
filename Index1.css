@@ -159,6 +159,16 @@
 {
     margin-top: 40px;
     margin-left: 200px;
+    font-weight: 700;
+    font-size: 45;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+.container7 p
+{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 24;
 }
 .container12 img
 {

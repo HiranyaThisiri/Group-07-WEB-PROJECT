@@ -367,7 +367,7 @@ p {
 }
 .wrapper .button:nth-child(3):hover .icon
 {
-    background: rgb(107, 159, 236);
+    background: rgb(191, 191, 192);
 }
 .wrapper .button .icon i
 {
@@ -384,6 +384,7 @@ p {
     font-weight: 500;
     line-height: 60px;
     margin-left: 10px;
+    font-weight: bold;
 }
 .wrapper .button:nth-child(1) span
 {
@@ -393,7 +394,7 @@ p {
 {
     color: rgb(219, 57, 57);
 }
-.wrapper .button:nth-child(2) span
+.wrapper .button:nth-child(3) span
 {
-    color: rgb(83, 109, 226);
+    color: rgb(0, 0, 0);
 }
