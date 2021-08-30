@@ -367,7 +367,7 @@ p {
 }
 .wrapper .button:nth-child(3):hover .icon
 {
-    background: rgb(191, 191, 192);
+    background: rgb(5, 5, 5);
 }
 .wrapper .button .icon i
 {
@@ -396,5 +396,5 @@ p {
 }
 .wrapper .button:nth-child(3) span
 {
-    color: rgb(0, 0, 0);
+    color: rgb(13, 13, 14);
 }

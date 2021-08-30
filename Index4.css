@@ -128,9 +128,19 @@
     {
         margin-left: 80px;
     }
-    .container7 h1, .container8 h1
+    .container7
+    {
+        height: 500px;
+    }
+    .container7 h1
     {
         margin-left: 60px;
+        margin-top: 50px;
+    }
+    .container7 p
+    {
+        margin-left: 80px;
+        margin-right: 80px;
     }
     .container1 .btn1
     {
@@ -278,7 +288,11 @@
     {
         margin-left: 80px;
     }
-    .container7 h1, .container8 h1
+    .container7
+    {
+        height: 600px;
+    }
+    .container7 h1
     {
         margin-left: 60px;
     }
@@ -433,6 +447,14 @@
     {
         height: 850px;
     }
+    .container7
+    {
+        height: 550px;
+    }
+    .container7 p
+    {
+        margin: 0 50px;
+    }
     .container11
     {
         height: 450px;
@@ -453,6 +475,10 @@
     .container6
     {
         height: 1000px;
+    }
+    .container7 p
+    {
+        margin: 0 10px;
     }
 }
 
@@ -495,6 +521,18 @@
     .container6
     {
         height: 1010px;
+    }
+    .container7 
+    {
+        height: 510px;
+    }
+    .container7 h1
+    {
+        font-size: 32;
+    }
+    .container7 p
+    {
+        font-size: 22;
     }
     .container11
     {
@@ -591,10 +629,18 @@
     {
         font-size: 22;
     }
+    .container7
+    {
+        height: 400px;
+    }
     .container7 h1
     {
-        margin-left: 150px;
+        margin-left: 100px;
         margin-top: 0px;
+    }
+    .container7 p
+    {
+        font-size: 18;
     }
     .container9
     {
@@ -749,6 +795,14 @@
     {
         height: 820px;
     }
+    .container7 h1
+    {
+        font-size: 28;
+    }
+    .container7 p
+    {
+        font-size: 16;
+    }
     #c1, #c2, #c3
     {
         margin-left: 80px;
@@ -785,6 +839,10 @@
     .container6
     {
         height: 950;
+    }
+    .container7
+    {
+        height: 450px;
     }
     .container11
     {
@@ -1001,6 +1059,20 @@
         margin-top: -10px;
         line-height: 1.1;
     }
+    .container7
+    {
+        height: 450px;
+    }
+    .container7 h1
+    {
+        font-size: 24;
+    }
+    .container7 p
+    {
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 15;
+    }
     .container6 p #s1
     {
         font-size: 16;
@@ -1013,6 +1085,13 @@
     {
         margin-left: 30px;
         margin-top: 0px;
+        font-size: 24;
+    }
+    .container7 p
+    {
+        font-size: 13;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .container9
     {
@@ -1040,6 +1119,10 @@
     {
         height: 700px;
     }
+    .container7
+    {
+        height: 570px;
+    }
     .container12
     {
         margin-left: 5px;
@@ -1051,7 +1134,7 @@
 {
     .banner-title h1
     {
-        font-size: 34px;
+        font-size: 30px;
         margin-left: -20px;
         margin-right: 0px;
         margin-top: -10px;
@@ -1096,9 +1179,9 @@
     {
         text-align: center;
         font-weight: bold;
-        font-size: 14;
-        margin-right: 5px;
-        margin-left: 5px;
+        font-size: 13;
+        margin-right: 0px;
+        margin-left: 0px;
         margin-top: -20px;
     }
     .container3
@@ -1147,10 +1230,19 @@
     {
         font-size: 14;
     }
+    .container7
+    {
+        height: 750px;
+    }
     .container7 h1
     {
         margin-left: 30px;
         margin-top: 0px;
+    }
+    .container7 p
+    {
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .container9
     {
@@ -1172,7 +1264,7 @@
 {
     .banner-title h1
     {
-        font-size: 25px;
+        font-size: 22px;
         margin-left: -20px;
         margin-right: 10px;
         margin-top: -10px;
@@ -1264,9 +1356,13 @@
     {
         font-size: 14;
     }
+    .container7
+    {
+        height: 780px;
+    }
     .container7 h1
     {
-        margin-left: 30px;
+        margin-left: 10px;
         margin-top: 0px;
     }
     .container9
