@@ -44,6 +44,8 @@
     margin-top: 20px;
 }
 
+/*Image slider*/
+
 .slider
 {
     width: 800px;
@@ -181,6 +183,7 @@
     background: white;
 }
 
+/*Waves starting*/
 
 body {
     margin: 0;
@@ -309,6 +312,7 @@ p {
         min-height: 40px;
     }
 }
+/*Waves ending*/
 
 .head
 {

@@ -35,16 +35,38 @@
 .break
 {
     height: 100px;
-    background-color: white;
+    background-color: rgb(184, 219, 241);
 }
 .container1
 {
     height: 700px;
     background-color: white;
     position: relative;
-    background-image: url();
-    background-repeat: no-repeat;
+}
+.container1a
+{
+    display: flex;
+}
+.container1b
+{
+    width: 40%;
+    background-image:linear-gradient(rgba(121, 67, 67, 0.4),rgba(0,0,0,0.3)),url(https://i.pinimg.com/originals/f5/25/6f/f5256f22b9dea5d4eb80c41f91f87793.jpg);
+    background-position: center;
     background-size: cover;
+    height: 500px;
+    margin-left: 40px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.container1c
+{
+    width: 60%;
+    height: 550px;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: rgb(184, 219, 241);
 }
 .contents
 {
@@ -65,13 +87,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: rgb(184, 219, 241);
+}
+.main1
+{
+    background-color: rgb(184, 219, 241);
+    height: 500px;
 }
 .container4
 {
     height: 450px;
     background-color: white;
     position: relative;
+    margin: 0px 80px 50px 80px;
+    border-radius: 10px;
 }
 .container5
 {
@@ -79,22 +108,38 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: rgb(184, 219, 241);
+    position: relative;
+}
+.main2
+{
+    background-color: rgb(184, 219, 241);
+    height: 950px;
 }
 .container6
 {
-    height: 800px;
+    height: 900px;
     background-color: white;
     position: relative;
+    margin: 0px 80px 50px 80px;
+    border-radius: 10px;
+}
+.main3
+{
+    background-color: rgb(184, 219, 241);
+    height: 500px;
 }
 .container7
 {
-    height: 400px;
+    height: 450px;
     background-color: white;
+    position: relative;
+    margin: 0px 80px 50px 80px;
+    border-radius: 10px;
 }
 .container8
 {
-    background-color: white;
+    background-color: rgb(184, 219, 241);
     height: 45px;
 }
 .container9
@@ -108,8 +153,8 @@
 }
 .container11
 {
-    height: 700px;
-    background-color: white;
+    height: 640px;
+    background-color: rgb(184, 219, 241);
 }
 .container12
 {

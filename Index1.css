@@ -89,10 +89,10 @@
 .container1 p
 {
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-top: 30px;
-    font-size: 22;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 20;
+    margin-top: -10px;
 }
 .container1 h1
 {
@@ -168,7 +168,7 @@
     font-family: 'Times New Roman', Times, serif;
     margin-left: 150px;
     margin-right: 150px;
-    font-size: 24;
+    font-size: 22;
 }
 .container12 img
 {
