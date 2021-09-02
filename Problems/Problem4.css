@@ -1,0 +1,42 @@
+@media screen and (max-width: 800px) {
+    .nav-bar {
+        padding: 10px 30px;
+    }
+    .fa-bars {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+    .nav-bar .fas {
+        display: block;
+        margin: 12px 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links {
+        height: 100vh;
+        width: 200px;
+        background: black;
+        top: 0;
+        right: -200px;
+        position: absolute;
+        text-align: left;
+        z-index: 2;
+        transition: 0.5s;
+    }
+    .nav-links ul a {
+        display: block;
+    }
+    .nav-links ul li {
+        display: block;
+    }
+    .nav-logo .btn {
+        margin-left: -20px;
+        margin-top: 30px;
+        height: 60px;
+        width: 60px;
+    }
+    img {
+        width: 100%;
+    }
+}
