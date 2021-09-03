@@ -21,9 +21,9 @@
 {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 2vw;
+    font-family: monospace;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
 }
 .nav-links ul li::after
 {
@@ -176,4 +176,5 @@
     height: auto;
     border-radius: 10px;
 }
+
 

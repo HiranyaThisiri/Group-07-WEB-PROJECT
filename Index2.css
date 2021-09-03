@@ -142,24 +142,37 @@
     background-color: rgb(184, 219, 241);
     height: 45px;
 }
-.container9
-{
-    height: 250px;
-    background-color: black;
-}
-.container10
-{
-    display: flex;
-}
 .container11
 {
-    height: 640px;
+    height: 600px;
     background-color: rgb(184, 219, 241);
 }
 .container12
 {
     margin-left: 200px;
     margin-right: 200px;
+}
+.container13
+{
+    height: 600px;
+    display: flex;
+    background-color: rgb(184, 219, 241);
+}
+.container13a
+{
+    width: 40%;
+    background-color: burlywood;
+    height: 550px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.container13b
+{
+    width: 60%;
+    background-color: cyan;
+    height: 500px;
+    margin-right: 40px;
+    border-radius: 10px;
 }
 #c1
 {
