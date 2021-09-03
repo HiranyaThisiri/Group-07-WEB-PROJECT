@@ -1,0 +1,128 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+*{
+  font-family: montserrat;
+}
+.contact{
+display: grid;
+height: 100vh; /*chage here to change height*/
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 0.2fr 0.5fr;
+grid-template-areas: "content1 content1 content1 content1"
+"content2 content2 content3 content3";
+grid-gap: 0.2rem;
+}
+.line{
+  border-top: 3px solid white;
+}
+.back{
+  background: linear-gradient(
+      rgba(70, 71, 77, 1),
+      rgba(6,222,225,0.4)
+    ),url(img/map-bg.jpg);
+  color: white;
+}
+
+h4{
+  font-size: 1.2rem;
+}
+
+.contacttext{
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.allto{
+  font-size: 1.5rem;
+}
+
+
+#content1{
+  padding: 2rem;
+  text-align: center;
+  grid-area: content1;
+}
+#content2{
+  text-align: center;
+  grid-area: content2;
+}
+#content3{
+  text-align: center;
+  grid-area: content3;
+}
+
+.input-lg {
+height: 30px;
+    padding: 10px 16px;
+    font-size: 18px;
+}
+.form-control {
+    outline: none;
+    display: block;
+    width: 90%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42;
+    color: rgba(187, 190, 201, 1);
+    background-color: rgba(70, 71, 77, 0.9);
+    border: 1px solid rgba(70, 71, 77, 1);
+    border-radius: 4px;
+}
+.form-group {
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.btn {
+    letter-spacing: 1.5px;
+    border: none;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    width: 20vw;
+    color: white;
+    background-color: rgba(70, 71, 77, 0.9);
+    border: 1px solid rgba(70, 71, 77, 0.9);
+    border-radius: 4px;
+}
+.btn:hover
+{
+  background-color: #5390F5;
+}
+
+
+@media (max-width: 700px)  {
+
+.contact{
+  width: 100vw;
+  height: 132vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.3fr 0.4fr 0.6fr;
+  grid-template-areas: "content1"
+  "content2"
+  "content3";
+}
+
+}
+@media (max-width: 900px)  {
+
+.contact{
+  width: 100vw;
+  height: 132vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.3fr 0.4fr 0.6fr;
+  grid-template-areas: "content1"
+  "content2"
+  "content3";
+}
+
+}
