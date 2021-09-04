@@ -8,7 +8,7 @@
 {
     height: 100vh;
     width: 100%;
-    background-image:linear-gradient(rgba(121, 67, 67, 0.4),rgba(0,0,0,0.3)),url(https://i.pinimg.com/originals/f5/25/6f/f5256f22b9dea5d4eb80c41f91f87793.jpg);
+    background-image:linear-gradient(rgba(121, 67, 67, 0.4),rgba(0,0,0,0.3)),url(Images/2.jpg);
     background-position: center;
     background-size: cover;
     overflow-x: hidden;
@@ -50,13 +50,14 @@
 .container1b
 {
     width: 40%;
-    background-image:linear-gradient(rgba(121, 67, 67, 0.4),rgba(0,0,0,0.3)),url(https://i.pinimg.com/originals/f5/25/6f/f5256f22b9dea5d4eb80c41f91f87793.jpg);
+    background-image:linear-gradient(rgba(121, 67, 67, 0.4),rgba(0,0,0,0.3)),url(Images/1.jpg);
     background-position: center;
     background-size: cover;
     height: 500px;
     margin-left: 40px;
     margin-top: 30px;
     border-radius: 10px;
+    box-shadow: 0 10px 20px black;
 }
 .container1c
 {
@@ -151,6 +152,9 @@
 {
     margin-left: 200px;
     margin-right: 200px;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px black;
 }
 .container13
 {
@@ -161,18 +165,24 @@
 .container13a
 {
     width: 40%;
-    background-color: burlywood;
     height: 550px;
     margin-left: 40px;
     border-radius: 10px;
+    background-image: linear-gradient(rgba(121, 67, 67, 0.4),rgba(0,0,0,0.3)),url(Images/9.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 10px 20px black;
 }
 .container13b
 {
     width: 60%;
-    background-color: cyan;
     height: 500px;
     margin-right: 40px;
     border-radius: 10px;
+    background-image: linear-gradient(rgba(121, 67, 67, 0.4),rgba(0,0,0,0.3)),url(Images/8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 10px 20px black;
 }
 #c1
 {

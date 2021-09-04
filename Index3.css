@@ -540,6 +540,10 @@ p {
     text-align: center;
     grid-area: content3;
   }
+  #content3 p
+  {
+      color: white;
+  }
   
   .input-lg {
   height: 30px;

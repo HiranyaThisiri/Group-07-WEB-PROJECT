@@ -465,14 +465,6 @@
     {
         margin-left: 100px;
     }
-    #c4
-    {
-        display: none;
-    }
-    #c5
-    {
-        display: none;
-    }
     .main1
     {
         background-color: white;
@@ -503,8 +495,11 @@
     .container1c
     {
         width: 90%;
-        background-color: white;
+        background-color: rgb(184, 219, 241);
         border-radius: 10px;
+        margin-top: 40px;
+        height: 530px;
+        margin-left: 40px;
     }
     .container1 h1
     {
@@ -525,10 +520,11 @@
         margin-right: 20px;
         margin-left: 20px;
     }
-
     .container4
     {
         margin: 0px;
+        height: 400px;
+        background-color: rgb(184, 219, 241);
     }
     .container4 h1
     {
@@ -544,12 +540,18 @@
     .container3, .container5
     {
         height: 500px;
+        background-color: rgb(184, 219, 241);
+    }
+    .container5
+    {
+        margin-top: -20px;
     }
     .container6
     {
         height: 850px;
         border-radius: 0px;
         margin: 0px;
+        background-color: rgb(184, 219, 241);
     }
     .container6 h1
     {
@@ -559,8 +561,8 @@
     .container6 p
     {
         font-size: 18;
-        margin-right: 10px;
-        margin-left: 10px;
+        margin-right: 20px;
+        margin-left: 20px;
         margin-top: -10px;
     }
     .container6 p #s1
@@ -573,19 +575,37 @@
     }
     .container7
     {
-        height: 450px;
+        height: 600px;
         border-radius: 0px;
         margin: 0px;
+        background-color: rgb(184, 219, 241);
     }
     .container11
     {
         height: 430px;
-        background-color: white;
+        background-color: rgb(184, 219, 241);
+        margin-top: -50px;
     }
     .container12
     {
         margin-left: 50px;
         margin-right: 50px;
+    }
+    .container13
+    {
+        height: 500px;
+        background-color: rgb(184, 219, 241);
+        margin-top: -50px;
+    }
+    .container13a
+    {
+        height: 450px;
+        margin-top: 20px;
+    }
+    .container13b
+    {
+        height: 400px;
+        margin-top: 20px;
     }
     
 }
@@ -606,13 +626,30 @@
     {
         top: 490px;
     }
+    .container1
+    {
+        height: 1180px;
+    }
+    .container1b
+    {
+        margin-left: 30px;
+    }
+    .container1c
+    {
+        height: 600px;
+        margin-left: 30px;
+    }
+    .container5
+    {
+        margin-top: 10px;
+    }
     .container6
     {
         height: 850px;
     }
     .container7
     {
-        height: 550px;
+        height: 650px;
     }
     .container7 p
     {
@@ -631,6 +668,20 @@
     {
         margin-top: 50px;
     }
+    .container13
+    {
+        height: 450px;
+    }
+    .container13a
+    {
+        height: 400px;
+        margin-top: 20px;
+    }
+    .container13b
+    {
+        height: 350px;
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 600px)
@@ -643,13 +694,34 @@
     {
         width: 85%;
     }
+    .container1c
+    {
+        height: 640px;
+        width: 85%;
+    }
     .container6
     {
-        height: 1000px;
+        height: 1050px;
     }
     .container7 p
     {
         margin: 0 10px;
+    }
+    .container13
+    {
+        height: 1000px;
+        display: block;
+    }
+    .container13a
+    {
+        margin-left: 50px;
+        width: 80%;
+        height: 600px;
+    }
+    .container13b
+    {
+        margin-left: 50px;
+        width: 80%;
     }
 }
 
@@ -697,9 +769,13 @@
         margin-right: 20px;
         font-size: 18;
     }
+    .container5
+    {
+        margin-top: 0px;
+    }
     .container6
     {
-        height: 1010px;
+        height: 1150px;
     }
     .container7 
     {
@@ -716,6 +792,10 @@
     .container11
     {
         height: 350px;
+    }
+    .container13
+    {
+        margin-top: -20px;
     }
 }
 
@@ -739,7 +819,7 @@
     }
     .container1
     {
-        height: 1180px;
+        height: 1240px;
     }
     .container1 h1
     {
@@ -871,6 +951,8 @@
     .container1c
     {
         margin-left: 10px;
+        width: 94%;
+        height: 570px;
     }
     .container1 h1
     {
@@ -987,6 +1069,21 @@
         margin-left: 10px;
         margin-right: 10px;
     }
+    .container13
+    {
+        height: 900px;
+    }
+    .container13a
+    {
+        margin-left: 30px;
+        margin-top: -20px;
+        height: 500px;
+    }
+    .container13b
+    {
+        margin-left: 30px;
+        height: 300px;
+    }
 }
 
 @media (max-width: 350px)
@@ -1001,11 +1098,15 @@
     }
     .container1
     {
-        height: 1050px;
+        height: 1080px;
     }
     .container1b
     {
         height: 300px;
+    }
+    .container1c
+    {
+        height: 600px;
     }
     .container1 p
     {
@@ -1071,6 +1172,10 @@
     {
         height: 250px;
         margin-left: 5px;
+    }
+    .container1c
+    {
+        height: 630px;
     }
     .container1 h1
     {
@@ -1184,6 +1289,10 @@
     {
         height: 1000px;
     }
+    .container1c
+    {
+        height: 600px;
+    }
     .container1 h1
     {
         margin-left: 40px;
@@ -1227,7 +1336,7 @@
     }
     .container6
     {
-        height: 930px;
+        height: 910px;
     }
     .container6 h1
     {
@@ -1281,6 +1390,21 @@
     {
         height: 150px;
     }
+    .container13
+    {
+        height: 700px;
+    }
+    .container13a
+    {
+        margin-left: 15px;
+        margin-top: -20px;
+        height: 400px;
+    }
+    .container13b
+    {
+        margin-left: 15px;
+        height: 250px;
+    }
     
 }
 
@@ -1294,6 +1418,10 @@
     {
         height: 220px;
     }
+    .container1c
+    {
+        height: 670px;
+    }
     .container1p
     {
         margin-left: 2px;
@@ -1306,7 +1434,7 @@
     }
     .container7
     {
-        height: 400px;
+        height: 450px;
     }
     .container12
     {
@@ -1433,18 +1561,20 @@
         margin-left: 0px;
         margin-right: 0px;
     }
-    .container9
+    .container13
     {
         height: 600px;
     }
-    .container10
+    .container13a
     {
-        display: inline-block;
+        margin-left: 15px;
+        margin-top: -20px;
+        height: 300px;
     }
-    #c1, #c2, #c3
+    .container13b
     {
-        height: 150px;
-        margin-left: 25px;
+        margin-left: 15px;
+        height: 200px;
     }
     
 }
@@ -1481,6 +1611,7 @@
     .container1c
     {
         margin-left: 0px;
+        height: 750px;
     }
     .container1 h1
     {
@@ -1610,6 +1741,7 @@
     .container1c
     {
         margin-left: 0px;
+        height: 960px;
     }
     .container1 h1
     {
