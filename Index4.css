@@ -47,7 +47,6 @@
 }
 
 
-
 @media (max-width: 1200px)
 {
     .banner-title
@@ -63,33 +62,22 @@
     {
         top: 240px;
     }
-    .container1 .btn1
-    {
-        margin-left: 200px;
-    }
-    .container4 .btn1
-    {
-        margin-left: 200px;
-    }
     .container1
     {
-        height: 900px;
+        height: 700px;
     }
     .container1c
     {
-        height: 700px;
+        height: 500px;
     }
     .container1 h1
     {
         margin-left: 250px;
     }
-    .container1 p
+    .container1c p
     {
-        font-size: 22;
-        margin-right: 40px;
-        margin-left: 40px;
-        margin-top: -30px;
-        line-height: 1.2;
+        margin-top: 5px;
+        line-height: normal;
     }
     .container2 p
     {
@@ -195,6 +183,10 @@
     {
         margin-left: 80px;
     }
+    .container1b h4
+    {
+        font-size: 18;
+    }
     .container7
     {
         height: 500px;
@@ -208,22 +200,6 @@
     {
         margin-left: 80px;
         margin-right: 80px;
-    }
-    .container1 .btn1
-    {
-        margin-left: 100px;
-    }
-    .container4 .btn1
-    {
-        margin-left: 100px;
-    }
-    #c4
-    {
-        display: none;
-    }
-    #c5
-    {
-        display: none;
     }
     .container1
     {
@@ -241,12 +217,6 @@
     {
         margin-left: 200px;
         font-weight: bold;
-    }
-    .container1 p
-    {
-        font-size: 18;
-        margin-right: 20px;
-        margin-left: 20px;
     }
     .container2 p
     {
@@ -339,11 +309,11 @@
     }
     .container1
     {
-        height: 750px;
+        height: 780px;
     }
     .container1c
     {
-        height: 580px;
+        height: 620px;
     }
     .main1
     {
@@ -399,9 +369,11 @@
     {
         top: 450px;
     }
-    .container1 h1, .container4 h1
+    .container1b h4
     {
-        margin-left: 80px;
+        margin-top: 0px;
+        padding-top: 300px;
+        font-size: 32;
     }
     .container7
     {
@@ -457,14 +429,6 @@
         height: 60px;
         width: 60px;
     }
-    .container1 .btn1
-    {
-        margin-left: 100px;
-    }
-    .container4 .btn1
-    {
-        margin-left: 100px;
-    }
     .main1
     {
         background-color: white;
@@ -497,20 +461,18 @@
         width: 90%;
         background-color: rgb(184, 219, 241);
         border-radius: 10px;
-        margin-top: 40px;
-        height: 530px;
+        margin-top: 60px;
+        height: 430px;
         margin-left: 40px;
     }
     .container1 h1
     {
         margin-left: 200px;
-        font-size: 30;
+        font-size: 36;
     }
-    .container1 p
+    .container1c p
     {
-        font-size: 18;
-        margin-right: 50px;
-        margin-left: 50px;
+        font-size: 22;
     }
     .container2 p
     {
@@ -528,7 +490,6 @@
     }
     .container4 h1
     {
-        margin-left: 200px;
         font-size: 30;
     }
     .container4 p
@@ -582,7 +543,7 @@
     }
     .container11
     {
-        height: 430px;
+        height: 480px;
         background-color: rgb(184, 219, 241);
         margin-top: -50px;
     }
@@ -606,6 +567,14 @@
     {
         height: 400px;
         margin-top: 20px;
+    }
+    .container13a h4
+    {
+        padding-top: 320px;
+    }
+    .container13b h4
+    {
+        padding-top: 280px;
     }
     
 }
@@ -636,8 +605,12 @@
     }
     .container1c
     {
-        height: 600px;
+        height: 500px;
         margin-left: 30px;
+    }
+    .container4
+    {
+        height: 420px;
     }
     .container5
     {
@@ -657,16 +630,14 @@
     }
     .container11
     {
-        height: 450px;
+        height: 420px;
+        background-color: rgb(184, 219, 241);
+        padding-top: 50px;
     }
     .container12
     {
-        margin-left: 30px;
-        margin-right: 30px;
-    }
-    .container12 img
-    {
-        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
     .container13
     {
@@ -682,6 +653,16 @@
         height: 350px;
         margin-top: 20px;
     }
+    .container13a h4
+    {
+        padding-top: 300px;
+        font-size: 20;
+    }
+    .container13b h4
+    {
+        padding-top: 260px;
+        font-size: 20;
+    }
 }
 
 @media (max-width: 600px)
@@ -694,10 +675,18 @@
     {
         width: 85%;
     }
+    .container1b h4
+    {
+        font-size: 28;
+    }
     .container1c
     {
-        height: 640px;
+        height: 580px;
         width: 85%;
+    }
+    .container4
+    {
+        height: 500px;
     }
     .container6
     {
@@ -706,6 +695,17 @@
     .container7 p
     {
         margin: 0 10px;
+    }
+    .container11
+    {
+        height: 420px;
+        background-color: rgb(184, 219, 241);
+        padding-top: 100px;
+    }
+    .container12
+    {
+        margin-left: 30px;
+        margin-right: 30px;
     }
     .container13
     {
@@ -722,6 +722,16 @@
     {
         margin-left: 50px;
         width: 80%;
+    }
+    .container13a h4
+    {
+        padding-top: 510px;
+        font-size: 21;
+    }
+    .container13b h4
+    {
+        padding-top: 270px;
+        font-size: 21;
     }
 }
 
@@ -746,6 +756,10 @@
     .main3
     {
         height: auto;
+    }
+    .container1c
+    {
+        height: 610px;
     }
     .container2
     {
@@ -819,7 +833,15 @@
     }
     .container1
     {
-        height: 1240px;
+        height: 1100px;
+    }
+    .container1b h4
+    {
+        font-size: 26;
+    }
+    .container1c 
+    {
+        height: 480px;
     }
     .container1 h1
     {
@@ -852,7 +874,7 @@
     }
     .container4
     {
-        height: 550px;
+        height: 510px;
     }
     .container4 h1
     {
@@ -931,17 +953,9 @@
     {
         top: 450px;
     }
-    .container1 .btn1
-    {
-        margin-left: 50px;
-    }
-    .container4 .btn1
-    {
-        margin-left: 50px;
-    }
     .container1
     {
-        height: 1170px;
+        height: 1030px;
     }
     .container1b
     {
@@ -952,7 +966,7 @@
     {
         margin-left: 10px;
         width: 94%;
-        height: 570px;
+        height: 410px;
     }
     .container1 h1
     {
@@ -984,7 +998,7 @@
     }
     .container4
     {
-        height: 500px;
+        height: 420px;
     }
     .container4 h1
     {
@@ -1046,7 +1060,7 @@
     }
     .container4
     {
-        height: 550px;
+        height: 480px;
     }
     .container6
     {
@@ -1062,7 +1076,7 @@
     }
     .container11
     {
-        height: 250px;
+        height: 270px;
     }
     .container12
     {
@@ -1084,6 +1098,16 @@
         margin-left: 30px;
         height: 300px;
     }
+    .container13a h4
+    {
+        padding-top: 380px;
+        font-size: 20;
+    }
+    .container13b h4
+    {
+        padding-top: 220px;
+        font-size: 20;
+    }
 }
 
 @media (max-width: 350px)
@@ -1098,15 +1122,20 @@
     }
     .container1
     {
-        height: 1080px;
+        height: 960px;
     }
     .container1b
     {
         height: 300px;
     }
+    .container1b h4
+    {
+        font-size: 24;
+        padding-top: 200px;
+    }
     .container1c
     {
-        height: 600px;
+        height: 460px;
     }
     .container1 p
     {
@@ -1123,7 +1152,7 @@
     }
     .container4
     {
-        height: 600px;
+        height: 550px;
     }
     .container6
     {
@@ -1156,26 +1185,23 @@
     {
         top: 510px;
     }
-    .container1 .btn1
-    {
-        margin-left: 50px;
-    }
-    .container4 .btn1
-    {
-        margin-left: 50px;
-    }
     .container1
     {
-        height: 1040px;
+        height: 910px;
     }
     .container1b
     {
         height: 250px;
         margin-left: 5px;
     }
+    .container1b h4
+    {
+        font-size: 22;
+        padding-top: 160px;
+    }
     .container1c
     {
-        height: 630px;
+        height: 460px;
     }
     .container1 h1
     {
@@ -1209,7 +1235,7 @@
     }
     .container4
     {
-        height: 470px;
+        height: 420px;
     }
     .container4 p
     {
@@ -1287,11 +1313,17 @@
     }
     .container1
     {
-        height: 1000px;
+        height: 900px;
+    }
+    .container1b h4
+    {
+        font-size: 20;
+        padding-top: 155px;
     }
     .container1c
     {
-        height: 600px;
+        height: 450px;
+        margin-left: 7px;
     }
     .container1 h1
     {
@@ -1320,7 +1352,7 @@
     }
     .container4
     {
-        height: 620px;
+        height: 530px;
     }
     .container4 h1
     {
@@ -1388,7 +1420,7 @@
     }
     .container11
     {
-        height: 150px;
+        height: 210px;
     }
     .container13
     {
@@ -1405,6 +1437,16 @@
         margin-left: 15px;
         height: 250px;
     }
+    .container13a h4
+    {
+        padding-top: 300px;
+        font-size: 18;
+    }
+    .container13b h4
+    {
+        padding-top: 170px;
+        font-size: 18;
+    }
     
 }
 
@@ -1412,15 +1454,21 @@
 {
     .container1
     {
-        height: 1060px;
+        height: 950px;
     }
     .container1b
     {
         height: 220px;
     }
+    .container1b h4
+    {
+        font-size: 18;
+        padding-top: 145px;
+    }
     .container1c
     {
-        height: 670px;
+        height: 550px;
+        margin-left: 5px;
     }
     .container1p
     {
@@ -1430,7 +1478,7 @@
     }
     .container4
     {
-        height: 700px;
+        height: 600px;
     }
     .container7
     {
@@ -1440,6 +1488,11 @@
     {
         margin-left: 5px;
         margin-right: 5px;
+    }
+    .container13b h4
+    {
+        padding-top: 170px;
+        font-size: 16;
     }
 }
 
@@ -1460,21 +1513,22 @@
     {
         display: none;
     }
-    .container1 .btn1
-    {
-        margin-left: 50px;
-    }
-    .container4 .btn1
-    {
-        margin-left: 50px;
-    }
     .container1
     {
-        height: 1020px;
+        height: 1000px;
     }
     .container1b
     {
         height: 200px;
+    }
+    .container1c
+    {
+        height: 600px;
+    }
+    .container1b h4
+    {
+        font-size: 16;
+        padding-top: 120px;
     }
     .container1 h1
     {
@@ -1507,7 +1561,7 @@
     }
     .container4
     {
-        height: 730px;
+        height: 700px;
     }
     .container4 h1
     {
@@ -1561,6 +1615,10 @@
         margin-left: 0px;
         margin-right: 0px;
     }
+    .container11
+    {
+        height: 140px;
+    }
     .container13
     {
         height: 600px;
@@ -1575,6 +1633,16 @@
     {
         margin-left: 15px;
         height: 200px;
+    }
+    .container13a h4
+    {
+        padding-top: 190px;
+        font-size: 16;
+    }
+    .container13b h4
+    {
+        padding-top: 100px;
+        font-size: 16;
     }
     
 }
@@ -1592,26 +1660,23 @@
     {
         height: 220px;
     }
-    .container1 .btn1
-    {
-        margin-left: 50px;
-    }
-    .container4 .btn1
-    {
-        margin-left: 50px;
-    }
     .container1
     {
-        height: 1030px;
+        height: 950px;
     }
     .container1b
     {
         height: 140px;
     }
+    .container1b h4
+    {
+        font-size: 11;
+        padding-top: 70px;
+    }
     .container1c
     {
         margin-left: 0px;
-        height: 750px;
+        height: 650px;
     }
     .container1 h1
     {
@@ -1644,7 +1709,7 @@
     }
     .container4
     {
-        height: 820px;
+        height: 780px;
     }
     .container4 h1
     {

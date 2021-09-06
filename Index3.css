@@ -314,6 +314,7 @@ p {
 }
 /*Waves ending*/
 
+/*Media Icons*/
 .head
 {
     overflow: hidden;
@@ -435,6 +436,14 @@ p {
   {
     text-align: center; 
     list-style-type:none;
+    line-height: 1.8;
+    margin-left: 10px;
+  }
+  #content13 ul
+  {
+    text-align: center; 
+    list-style-type:none;
+    line-height: 0.8;
     margin-left: 10px;
   }
   
@@ -489,9 +498,13 @@ p {
   *{
     font-family: montserrat;
   }
+  .container h2
+  {
+    font: normal 26px 'Cookie', cursive;
+  }
   .contact{
   display: grid;
-  height: 100vh; /*chage here to change height*/
+  height: 80vh; /*chage here to change height*/
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.2fr 0.5fr;
   grid-template-areas: "content1 content1 content1 content1"
@@ -601,9 +614,11 @@ p {
   }
   
   }
-  @media (max-width: 900px)  {
+  @media (max-width: 900px)  
+  {
   
-  .contact{
+  .contact
+  {
     width: 100vw;
     height: 132vh;
     grid-template-columns: 1fr;
@@ -612,7 +627,16 @@ p {
     "content2"
     "content3";
   }
+
+  @media (max-width: 300px)  
+  {
+  
+    .contact
+    {
+      width: 60vw;
+      height: 162vh;
+    }
   
   }
 
-  
+}
