@@ -64,11 +64,11 @@
     }
     .container1
     {
-        height: 700px;
+        height: 800px;
     }
     .container1c
     {
-        height: 500px;
+        height: 650px;
     }
     .container1 h1
     {
@@ -203,7 +203,7 @@
     }
     .container1
     {
-        height: 700px;
+        height: 900px;
     }
     .container1b
     {
@@ -211,7 +211,7 @@
     }
     .container1c
     {
-        height: 550px;
+        height: 720px;
     }
     .container1 h1
     {
@@ -309,11 +309,15 @@
     }
     .container1
     {
-        height: 780px;
+        height: 1050px;
     }
     .container1c
     {
-        height: 620px;
+        height: 880px;
+    }
+    .container1c p
+    {
+        font-size: 20;
     }
     .main1
     {
@@ -446,7 +450,7 @@
     }
     .container1
     {
-        height: 1100px;
+        height: 1250px;
     }
     .container1a
     {
@@ -462,7 +466,7 @@
         background-color: rgb(184, 219, 241);
         border-radius: 10px;
         margin-top: 60px;
-        height: 430px;
+        height: 630px;
         margin-left: 40px;
     }
     .container1 h1
@@ -597,7 +601,7 @@
     }
     .container1
     {
-        height: 1180px;
+        height: 1380px;
     }
     .container1b
     {
@@ -605,7 +609,7 @@
     }
     .container1c
     {
-        height: 500px;
+        height: 750px;
         margin-left: 30px;
     }
     .container4
@@ -631,7 +635,7 @@
     .container11
     {
         height: 420px;
-        background-color: rgb(184, 219, 241);
+        background-color: rgb(232, 242, 248);
         padding-top: 50px;
     }
     .container12
@@ -669,7 +673,7 @@
 {
     .container1
     {
-        height: 1200px;
+        height: 1300px;
     }
     .container1b
     {
@@ -681,8 +685,14 @@
     }
     .container1c
     {
-        height: 580px;
+        height: 650px;
         width: 85%;
+    }
+    .container1c p
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20;
     }
     .container4
     {
@@ -691,6 +701,16 @@
     .container6
     {
         height: 1050px;
+    }
+    .container6 p #s1
+    {
+        font-size: 24;
+        font-weight: bold;
+    }
+    .container6 p #s2
+    {
+        font-size: 24;
+        font-weight: bold;
     }
     .container7 p
     {
@@ -759,7 +779,7 @@
     }
     .container1c
     {
-        height: 610px;
+        height: 700px;
     }
     .container2
     {
@@ -833,7 +853,7 @@
     }
     .container1
     {
-        height: 1100px;
+        height: 1300px;
     }
     .container1b h4
     {
@@ -841,19 +861,16 @@
     }
     .container1c 
     {
-        height: 480px;
+        height: 680px;
+    }
+    .container1c p
+    {
+        font-size: 18;
     }
     .container1 h1
     {
         margin-left: 150px;
         font-size: 30;
-    }
-    .container1 p
-    {
-        font-size: 18;
-        margin-right: 10px;
-        margin-left: 10px;
-        margin-top: -10px;
     }
     .container2
     {
@@ -909,10 +926,12 @@
     .container6 p #s1
     {
         font-size: 22;
+        font-weight: bold;
     }
     .container6 p #s2
     {
         font-size: 22;
+        font-weight: bold;
     }
     .container7
     {
@@ -955,7 +974,7 @@
     }
     .container1
     {
-        height: 1030px;
+        height: 1180px;
     }
     .container1b
     {
@@ -966,7 +985,7 @@
     {
         margin-left: 10px;
         width: 94%;
-        height: 410px;
+        height: 570px;
     }
     .container1 h1
     {
@@ -1030,11 +1049,13 @@
     }
     .container6 p #s1
     {
-        font-size: 16;
+        font-size: 18;
+        font-weight: bold;
     }
     .container6 p #s2
     {
-        font-size: 16;
+        font-size: 18;
+        font-weight: bold;
     }
     .container7 h1
     {
@@ -1053,6 +1074,14 @@
     .media-icons
     {
         top: 460px;
+    }
+    .container1
+    {
+        height: 1220px;
+    }
+    .container1c
+    {
+        height: 630px;
     }
     .container3
     {

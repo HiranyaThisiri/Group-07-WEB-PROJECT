@@ -21,8 +21,8 @@
 {
     color: white;
     text-decoration: none;
-    font-size: 24;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 20;
+    font-family:'Poppins';
     font-weight: bold;
 }
 .nav-links ul li::after
@@ -88,7 +88,7 @@
 }
 .container1 p
 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Poppins';
     margin-left: 40px;
     margin-right: 40px;
     font-size: 20;
@@ -113,16 +113,14 @@
 }
 .container1c p
 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 22;
-    line-height: 1.4;
-    margin-top: 25px;
+    font-family:'Poppins';
+    font-size: 20;
 }
 .container2 p
 {
     text-align: center;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Poppins';
     font-size: 24;
     margin-left: 100px;
     margin-right: 100px;
@@ -132,7 +130,7 @@
 }
 .container4 p
 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Poppins';
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 30px;
@@ -148,7 +146,7 @@
 }
 .container6 p
 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Poppins';
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 30px;
@@ -181,7 +179,7 @@
 }
 .container7 p
 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Poppins';
     margin-left: 150px;
     margin-right: 150px;
     font-size: 22;
