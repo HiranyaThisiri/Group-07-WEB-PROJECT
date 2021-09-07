@@ -25,6 +25,11 @@
     </head>
     <body>
 
+      <div class="loadack">
+        <div id="loader">
+        </div>
+      </div>
+
         <div id="hero">
             <div class="nav-bar">
                     <div class="nav-logo">
@@ -35,11 +40,38 @@
                         <i id="to-top" class="fas fa-times-circle" onclick="closeMenu()"></i>
 
                         <ul>
-                            <li><a id="link1" href="Index.html" class="hometab">Home</a></li>
-                            <li><a id="link1" href="Problems/problem.html">Problems</a></li>
-                            <li><a id="link1" href="Solutions/Solutions.html">Solutions</a></li>
-                            <li><a id="link1" href="Overview/Overview.html">Overview</a></li>
-                            <li><a id="link1" href="Suggestions/Suggestions.html">Suggestions</a></li>
+                          <div class="dropdown">
+                            <li><a id="link1" href="Index.html" class="hometab">Home</a>
+                            
+                              <div class="dropdown-content">
+                                <a href="#container1">Water</a>
+                                <a href="#container4">Sanitation</a>
+                                <a href="#container6">Importance</a>
+                                <a href="#container7">Water Resources</a>
+                              </div>
+                          </div>  
+                          </li>
+
+                          <div class="dropdown">
+                            <li><a id="link1" href="Problems/problem.html">Problems</a>
+                              <div class="dropdown-content">
+                              </div>
+                          </div>  
+                            </li>
+
+                          <div class="dropdown">
+                            <li><a id="link1" href="Solutions/Solutions.html">Solutions</a>
+                              <div class="dropdown-content">
+                              </div>
+                          </div>  
+                            </li>
+
+                            <li><a id="link1" href="Overview/Overview.html">Overview</a>
+                            </li>
+
+                            <li><a id="link1" href="Suggestions/Suggestions.html">Suggestions</a>
+                            </li>
+
                         </ul>
                     </div>
 
@@ -103,7 +135,7 @@
 
             </svg>
 
-            <div class="container1">
+            <div id="container1">
                 <div class="contents">
                     <h1>Water</h1>
 
@@ -186,7 +218,7 @@
             </div>
 
             <div class="main1">
-            <div class="container4">
+            <div id="container4">
                 <div class="contents">
                     <h1>Sanitation</h1>
                   <p>
@@ -200,7 +232,6 @@
                     collection, industrial/hazardous waste management, and wastewater treatment and disposal.
                   </p>
                 </div>
-                <div id="stars"></div>
             </div>
           </div>
             
@@ -212,7 +243,7 @@
             </div>
 
             <div class="main2">
-            <div class="container6">
+            <div id="container6">
                 <div class="contents">
                   <h1>Importance Of Water & Sanitation</h1>
                   <p>
@@ -243,7 +274,6 @@
                   </p>
                     
                 </div>
-                <div id="stars"></div>
             </div>
             </div>
 
@@ -251,14 +281,14 @@
               <div class="container13a">
                 <h4>"A drop of water is worth more than<br>a sack of gold to a thirsty man"</h4>
               </div>
-
+              <div id="stars"></div>
               <div class="container13b">   
                 <h4>"You will never solve poverty without solving <br>water and sanitation"</h4>            
               </div>
             </div>
 
             <div class="main3">
-            <div class="container7">
+            <div id="container7">
               <div class="contents">
                 <h1>Water Resources</h1>
                        <p>
@@ -271,7 +301,6 @@
                         protect those water resources. 
                        </p>
               </div>
-              <div id="stars"></div>
           </div>
           </div>
 
@@ -411,6 +440,16 @@
     
 
         </div>
+
+        <script>
+
+          let spinnerWrapper = document.querySelector('.loadack');
+           
+           window.addEventListener('load', function () {
+          spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+          });
+           
+          </script>
 
         
 

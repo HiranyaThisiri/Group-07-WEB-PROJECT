@@ -37,7 +37,7 @@
     height: 100px;
     background-color: rgb(184, 219, 241);
 }
-.container1
+#container1
 {
     height: 700px;
     background-color: white;
@@ -95,7 +95,7 @@
     background-color: rgb(184, 219, 241);
     height: 700px;
 }
-.container4
+#container4
 {
     height: 650px;
     background-color: white;
@@ -117,7 +117,7 @@
     background-color: rgb(184, 219, 241);
     height: 1050px;
 }
-.container6
+#container6
 {
     height: 1000px;
     background-color: white;
@@ -130,7 +130,7 @@
     background-color: rgb(184, 219, 241);
     height: 650px;
 }
-.container7
+#container7
 {
     height: 600px;
     background-color: white;
