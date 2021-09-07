@@ -1,8 +1,8 @@
 .btn
 {
     box-shadow: 0 10px 20px gray;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     top: -30px;
     left: 5px;
     position: relative;
@@ -17,7 +17,7 @@
 }
 .button1
 {
-    background: url(logo.png);
+    background: url('logo.png');
     background-repeat: no-repeat;
     background-size: cover;
     border: 3px solid white;
@@ -26,7 +26,7 @@
 {
     padding: 10px 20px;
     border: 0;
-    background: yellow;
+    background: rgb(176, 198, 219);
     font-weight: bold;
     cursor: pointer;
     margin-left: 400px;

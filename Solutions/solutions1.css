@@ -1,0 +1,52 @@
+.nav-logo img {
+    width: 100px;
+    height: 100px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.nav-links ul {
+    margin-left: 30px;
+    display: inline;
+    float: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+}
+
+.nav-links ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: yellow;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.nav-bar .fas {
+    margin: 45px 23px;
+    display: block;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.nav-bar .fas {
+    display: none;
+}
