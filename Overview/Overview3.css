@@ -1,3 +1,14 @@
+.container8 .top
+{
+    border-radius: 5px;
+    position: absolute;
+    right: 5px;
+}
+.container8 .top img
+{
+    height: 30px;
+    width: 30px;
+}
 .btn
 {
     box-shadow: 0 10px 20px gray;
@@ -32,39 +43,149 @@
     margin-left: 400px;
     margin-top: 20px;
 }
-.btn2
+
+/*Image slider*/
+
+.slider
 {
-    padding: 10px 20px;
-    border: 0;
-    background: white;
-    font-weight: bold;
-    cursor: pointer;
-    margin-left: 715px;
-    margin-top: 20px;
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
 }
-.btn3
+.slides
 {
-    padding: 10px 20px;
-    border: 0;
-    background: white;
-    font-weight: bold;
-    cursor: pointer;
-    margin-left: 720px;
-    margin-top: 20px;
+    width: 500%;
+    height: 500px;
+    display: flex;
+    border-radius: 10px;
 }
-.btn4
+.slides input
 {
-    padding: 10px 20px;
-    border: 0;
-    background: white;
-    font-weight: bold;
+    display: none;
+}
+.slide
+{
+    width: 20%;
+    transition: 2s;
+}
+.slide img
+{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+}
+.navigation-manual
+{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn
+{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
     cursor: pointer;
-    margin-left: 700px;
-    margin-top: 20px;
+    transition: 1s;
+}
+.manual-btn:not(:last-child)
+{
+    margin-right: 40px;
+}
+.manual-btn:hover
+{
+    background: white;
+}
+#radio1:checked ~ .first
+{
+    margin-left: 0;
+}
+#radio2:checked ~ .first
+{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first
+{
+    margin-left: -40%;
+}
+#radio4:checked ~ .first
+{
+    margin-left: -60%;
+}
+.navigation-auto
+{
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+}
+.navigation-auto div
+{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.navigation-auto div:not(:last-child)
+{
+    margin-right: 40px;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1
+{
+    background: white;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2
+{
+    background: white;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3
+{
+    background: white;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4
+{
+    background: white;
+}
+#radio5:checked ~ .first
+{
+    margin-left: 0;
+}
+#radio6:checked ~ .first
+{
+    margin-left: -20%;
+}
+#radio7:checked ~ .first
+{
+    margin-left: -40%;
+}
+#radio8:checked ~ .first
+{
+    margin-left: -60%;
+}
+#radio5:checked ~ .navigation-auto .auto-btn1
+{
+    background: white;
+}
+#radio6:checked ~ .navigation-auto .auto-btn2
+{
+    background: white;
+}
+#radio7:checked ~ .navigation-auto .auto-btn3
+{
+    background: white;
+}
+#radio8:checked ~ .navigation-auto .auto-btn4
+{
+    background: white;
 }
 
-body 
-{
+/*Waves starting*/
+
+body {
     margin: 0;
 }
 
@@ -192,5 +313,329 @@ p {
     }
 }
 
+/*Media Icons*/
+.head
+{
+    overflow: hidden;
+}
+.media-icons 
+{
+    z-index: 888;
+    position: absolute;
+    right: 30px;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease;
+}
+.media-icons a
+{
+    text-decoration: none;
+}
+.wrapper .button
+{
+    display: block;
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:hover
+{
+    width: 200px;
+}
+.wrapper .button .icon
+{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    text-align: center;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon
+{
+    background: #426782;
+}
+.wrapper .button:nth-child(2):hover .icon
+{
+    background: rgb(219, 57, 57);
+}
+.wrapper .button:nth-child(3):hover .icon
+{
+    background: rgb(5, 5, 5);
+}
+.wrapper .button .icon i
+{
+    font-size: 25px;
+    line-height: 60px;
+}
+.wrapper .button:hover .icon i
+{
+    color: #fff;
+}
+.wrapper .button span
+{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.wrapper .button:nth-child(1) span
+{
+    color: #426782;
+}
+.wrapper .button:nth-child(2) span
+{
+    color: rgb(219, 57, 57);
+}
+.wrapper .button:nth-child(3) span
+{
+    color: rgb(13, 13, 14);
+}
 
+/*Footer Responsive*/
+:root {
+    --main-radius: 5px;
+    --main-padding: 5px;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    font-family: "Inter", sans-serif;
+  }
+  
+  .container {
+    display: grid;
+    height: 50vh;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 0.8fr 0.2fr;
+    grid-template-areas:"content1 content2 content3"
+    "footer footer footer";                    
+    grid-gap: 0rem; 
+    color: #e6e6e6;
+    text-align: center;
+  }
+  h2, h3
+  {
+    margin-top: 3vh;
+  }
+  ul
+  {
+    text-align: center; 
+    list-style-type:none;
+    line-height: 1.8;
+    margin-left: 10px;
+  }
+  #content13 ul
+  {
+    text-align: center; 
+    list-style-type:none;
+    line-height: 0.8;
+    margin-left: 10px;
+  }
+  
+  #content10 {
+    background: #363940;
+    grid-area: content1;
+  }
+  
+  #content12 {
+    background: #363940;
+    grid-area: content2;
+  }
+  
+  #content13 {
+    background: #363940;
+    grid-area: content3;
+  }
+  #content10 p, #content12 p, #content13 p
+  {
+      color: white;
+  }
+  
+  .footer {
+    background: #2d3035;
+    grid-area: footer;
+  }
+  @media only screen and (max-width: 600px) {
+    .container {
+  
+    height: 100vh;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 0.5fr ;
+      grid-template-areas:
+        "content1"
+        "content2"
+        "content3"
+        "footer";
+    }
+    ul
+    {
+      margin-left: 10px;
+      text-align: center;
+  
+    }
+  }
 
+  /*Write to us*/
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  *{
+    font-family: montserrat;
+  }
+  .container h2
+  {
+    font: normal 26px 'Cookie', cursive;
+  }
+  .contact{
+  display: grid;
+  height: 80vh; /*chage here to change height*/
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 0.5fr;
+  grid-template-areas: "content1 content1 content1 content1"
+  "content2 content2 content3 content3";
+  grid-gap: 0.2rem;
+  }
+  .line{
+    border-top: 3px solid white;
+  }
+  .back{
+    background: linear-gradient(
+        rgba(70, 71, 77, 1),
+        rgba(6,222,225,0.4)
+      ),url(img/map-bg.jpg);
+    color: white;
+  }
+  
+  h4{
+    font-size: 1.2rem;
+  }
+  
+  .contacttext{
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+  
+  .underline{
+    text-decoration: underline;
+  }
+  
+  .allto{
+    font-size: 1.5rem;
+  }
+  
+  
+  #content1{
+    padding: 2rem;
+    text-align: center;
+    grid-area: content1;
+  }
+  #content2{
+    text-align: center;
+    grid-area: content2;
+  }
+  #content3{
+    text-align: center;
+    grid-area: content3;
+  }
+  #content3 p
+  {
+      color: white;
+  }
+  
+  .input-lg {
+  height: 30px;
+      padding: 10px 16px;
+      font-size: 18px;
+  }
+  .form-control {
+      outline: none;
+      display: block;
+      width: 90%;
+      padding: 6px 12px;
+      font-size: 14px;
+      line-height: 1.42;
+      color: rgba(187, 190, 201, 1);
+      background-color: rgba(70, 71, 77, 0.9);
+      border: 1px solid rgba(70, 71, 77, 1);
+      border-radius: 4px;
+  }
+  .form-group {
+      margin-bottom: 2%;
+      margin-left: 5%;
+      margin-right: 5%;
+  }
+  
+  .btn2 {
+      letter-spacing: 1.5px;
+      border: none;
+      padding: 6px 12px;
+      margin-bottom: 0;
+      font-size: 14px;
+      font-weight: 400;
+      text-align: center;
+      width: 20vw;
+      color: white;
+      background-color: rgba(70, 71, 77, 0.9);
+      border: 1px solid rgba(70, 71, 77, 0.9);
+      border-radius: 4px;
+  }
+  .btn2:hover
+  {
+    background-color: #5390F5;
+  }
+  
+  
+  @media (max-width: 700px)  {
+  
+  .contact{
+    width: 100vw;
+    height: 132vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 0.4fr 0.6fr;
+    grid-template-areas: "content1"
+    "content2"
+    "content3";
+  }
+  
+  }
+  @media (max-width: 900px)  
+  {
+  
+  .contact
+  {
+    width: 100vw;
+    height: 132vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 0.4fr 0.6fr;
+    grid-template-areas: "content1"
+    "content2"
+    "content3";
+  }
+
+  @media (max-width: 300px)  
+  {
+  
+    .contact
+    {
+      width: 60vw;
+      height: 162vh;
+    }
+  
+  }
+
+}
