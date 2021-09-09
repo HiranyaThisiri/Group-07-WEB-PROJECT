@@ -7,7 +7,7 @@
 }
 .nav-links ul
 {
-    margin-left: 30px;
+    margin-left: 20px;
     display: inline;
     float: right;
 }
@@ -107,6 +107,7 @@
 {
     font-family:'Poppins';
     font-size: 20;
+    margin-left: 10px;
 }
 .container2 p
 {
@@ -156,10 +157,12 @@
 #container6 p #s1
 {
     font-size: 26;
+    font-weight: bold;
 }
 #container6 p #s2
 {
     font-size: 24;
+    font-weight: bold;
 }
 #container7 h1
 {
