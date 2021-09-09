@@ -1,50 +1,215 @@
-<!DOCTYPE.html>
+<!DOCTYPE html>
 <html>
+
 <head>
-	<title>
-	</title>
-	<link rel="stylesheet" href="Suggestions.css">
-	<script type="text/javascript">Suggestion_External_Javascript.js </script>
-	<link rel="shortcut icon" href="../images/Layer 01.png">
-	</head>
-	<body>
-		<div id="Zoominout">
-		<div id="form-reg">
-			<h1>Registration Form</h1>
-		</div>
-		<div id="form-content">
-			<form>
-                <div id="detail_name">
-			
-				<h2 class="detail">Name</h2>
-				
-				<input type="text" id="firstname" name="fanme" placeholder="John"><br>
-				<label id="labelfname">First Name</label>
-				
-				<input type="text" id="lastname" name="lname" placeholder="Wick"><br>
-				<label id="labellname">Last Name</label>
-                </div>
+  <meta charset="utf-8">
+  <title>Suggestions</title>
 
-				<h2 class="detail">Email</h2>
-				<input type="text" id="email" name="email" placeholder="abc@gmail.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="shortcut icon" href="../images/Layer 01.png">
+  <link rel="stylesheet" href="Loadingscreen.css">
+  <link rel="stylesheet" href="navigation_bar.css">
+  <link rel="stylesheet" href="containers.css">
+  <link rel="stylesheet" href="suggestions_form.css">
+  <link rel="stylesheet" href="write_to_us.css">
+  <link rel="stylesheet" href="footer_respon.css">
+  <link rel="stylesheet" href="scroral_bar.css">
+  <link rel="stylesheet" href="Animation.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/022a1e7040.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/a54d2cbf95.js" ></script>
 
-				<h2 class="detail">Phone</h2>
-				<input type="text" id="code" name="area_code" placeholder="+94">
-				<label id="labelarea-code">Area Code</label>
-				<input type="text" id="number"name="phone" placeholder="77xxxxxxx">
-				<label id="labelphone-number">Phone Number</label>
+  <script type="text/javascript">
 
-				<h2 class="detail">Gender</h2>
-                
-		        <input type="radio" name="gender" id="m" value="male">
-                <label id="labelmale">Male</label>
-		        <input type="radio" name="gender" id="f" value="female">
-                <label id="labelfeamle">Feamle</label><br><br>
+    function validate()
+        {
+            var name=document.getElementById('User').value;
+            var password=document.getElementById('pword').value;
+            var gender=document.form1.gender.value;
+            var fname=document.getElementById('firstname').value;
+            var lname=document.getElementById('lastname').value;
+            var email=document.getElementById('email').value;
+            var acode=document.getElementById('code').value;
+            var number=document.getElementById('number').value;
+            var country=document.getElementById('kingdom').value;
 
-		       
-	        <h2 class="detail">Country</h2>
-		   <select id="kingdom" name="kingdom">
-   <option value="">----Choose Your Country----</option>      
+            if(name=="")
+            {
+                alert("Please Enter Your Own User Name! ");
+                return false;
+            }
+             else if (password=="") 
+            {
+              alert("Please Enter Your Own Password! ");
+              return false;
+            }
+             else if (gender=="") 
+            {
+              alert("Please Selsect Your Gender!");
+              return false;
+            }
+             else if (fname=="") 
+            {
+              alert("Please Selsect Your First Name!");
+              return false;
+            }
+             else if (lname=="") 
+            {
+              alert("Please Selsect Your Last Name!");
+              return false;
+            }
+      
+            else if (email=="") 
+            {
+              alert("Please Enter Your Personal Email !");
+              return false;
+
+            }
+            else if (acode=="") 
+            {
+              alert("Please Enter Your Area Code! ");
+              return false;
+            }
+             else if (number=="") 
+            {
+              alert("Please Enter Your Mobile Number! ");
+              return false;
+            }
+             else if (country=="") 
+            {
+              alert("Please Selsect Your Personal Kingdom ! ");
+              return false;
+            }
+            else(country!=""||number!=""|| acode!="" ||email!="" ||lname!=""||fname!=""||gender!=""||password!=""||name!="")
+            {
+              alert("Your Registration is Successfully! Thanks For Registration! ");
+            }
+        } 
+        /*function onclickfn()
+        {
+        if (country!=""||number!=""|| acode!="" ||email!="" ||lname!=""||fname!=""||gender!=""||password!=""||name!="")
+        {
+          document.location.href="login.html";
+        } 
+       }*/
+    
+  </script>
+
+<body >
+ <div class="loadack"><div id="loader"></div></div>
+
+    <div id="stars"></div>
+</div>
+
+  <!--Navigation Bar -->
+   <div id="hero">
+            <div class="nav-bar">
+                    <div class="nav-links" id="nav-links">
+                        <i id="to-top" class="fas fa-times-circle" onclick="closeMenu()"></i>
+                        <ul>
+                            <li><a id="link1" href="" class="hometab">Home</a></li>
+                            <li><a id="link1" href="Problems/problem.html">Problems</a></li>
+                            <li><a id="link1" href="Solutions/Solutions.html">Solutions</a></li>
+                            <li><a id="link1" href="Overview/Overview.html">Overview</a></li>
+                            <li><a id="link1" href="Suggestions/Suggestions.html">Suggestions</a></li>
+                            <li><a id="link1" href="login.php">Sign In</a></li>
+                        </ul>
+                    </div>
+                    <i id="to-top" class="fas fa-bars" onclick="showMenu()"></i>
+            </div>
+         </div>
+<!--Background Div First Image Added -->
+<div id="container1">
+        <img src="12.png" alt="world" class="responsive1">
+
+</div>
+ 
+ <!--<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+
+              <defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" /></defs>
+
+              <g class="parallax">
+
+                  <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+
+                  <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+
+                  <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+
+                  <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+
+              </g>
+
+            </svg>-->
+
+
+<div id="container2" class="responsive2">
+<div id="cotainer_sub1">
+  <form action="registration.php" method="POST" name="form1" class="formcss" onsubmit="return validate()";>
+    <legend><h1>Registration Form</h1></legend>
+   
+       <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" class="input69" id="firstname" name="fanme" placeholder="John"><br>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" class="input69" id="lastname" name="lname" placeholder="Wick"><br>
+      </div>
+    </div>
+
+     <div class="row">
+      <div class="col-25">
+        <label for="email">Email</label>
+      </div>
+      <div class="col-75">
+        <input type="email" class="input69" id="email" name="email" placeholder="abc@gmail.com"><br>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-25">
+        <label for="phone">Phone</label>
+      </div>
+      <div class="col-75">
+        <input type="number" class="input69" id="code" name="area_code" placeholder="+94"> 
+        <label id="labelarea-code">Country Code</label>
+          <input type="number" class="input69" id="number"name="phone" placeholder="77xxxxxxx">
+          <label id="labelphone-number"></label><br>
+       </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-25">
+        <label for="gender">Gender</label>
+      </div>
+      <div class="col-75">
+        <input type="radio"  name="gender" id="m" value="male">
+        <label id="labelmale">Male</label>
+        <input type="radio"  name="gender" id="f" value="female">
+        <label id="labelfeamle">Female</label><br>
+      </div>
+    </div>
+
+
+     <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+   <select id="kingdom" name="kingdom">
+   <option value="">----Choose Your Country----</option>
    <option value="Afganistan">Afghanistan</option>
    <option value="Albania">Albania</option>
    <option value="Algeria">Algeria</option>
@@ -292,31 +457,203 @@
    <option value="Zambia">Zambia</option>
    <option value="Zimbabwe">Zimbabwe</option>
 </select>
-               <div class="user">
-                 <h2 class="detail">User_name</h2>
-                 <input type="text" id="User"name="username" placeholder="Username" value=""><br><br>
-                 <h2 class="detail">Password</h2>
-                 <input type="password" id="pword"name="password" placeholder="Enter Your Strong Password"><br><br>
-                 </div>
+<br>
+     </div>
+    </div>
 
-                <h2 id="question">Would you hope to see our future save aqua programs?</h2>
 
-                <div id="radiotrue">
-                <input type="radio" name="yes"  value="yes">
-                Yes
-                </div>
-                <div id="radiofalse">
-                <input type="radio" name="yes"  value="no">
-                No
-                </div>
-                
-                <div class="button1">
-                <button type="submit">Register</button>
-                 <button type="reset">Cancel</button>
-                </div>
-                <div id="gt"></div>
+    <div class="row">
+      <div class="col-25">
+        <label for="username">User Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" class="input69" id="User"name="username" placeholder="Username"> <br>
+         </div>
+    </div>
 
-			</form>
-		</div>
-	</body>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="passwd">Password</label>
+      </div>
+      <div class="col-75">
+       <input type="password" id="pword"name="password" placeholder="Enter Your Strong Password"><br><br>
+      </div>
+    </div>
+
+
+     <!--<div class="row">
+      <div class="col-25">
+        <label for="para1" id="para">Would you hope to see our future save aqua programs?</label>
+      </div>
+      <div class="col-75">
+       <input type="radio"  name="yes" id="y">
+        <label id="yes">Yes</label>
+        <input type="radio"  name="no" id="n">
+        <label id="No">No</label><br>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>-->
+
+
+    <div class="row">
+
+      <input type="submit" class="save" value="Submit" name="submit">
+
+      <input type="reset" class="cancel" value="Cancel" name="reset">
+    </div>
+  </form>
+</div>
+</div>
+ <div id="stars"></div>
+</div>
+  <section  class="back">
+<hr class="line">
+
+<div class="contact">
+<div id="content1"><span class="contacttext">CONTACTS</span><pre class="underline">__________________________</pre>
+  <span class="allto">All to contact us</span></div>
+
+<div id="content2">
+  <div class="contactinfo">
+<h4><u>Our Address</u></h4><br>
+<ul style="list-style:none; text-align:center;">
+  <li>
+    <i class="fa fa-map-marker fa-lg"></i>&nbsp
+    NSBM Green University,&nbsp&nbsp<br><br>
+    &nbsp &nbsp &nbspPitipana-Thalagala Rd,<br><br> Homagama.</li><br>
+
+      <li><i class="fa fa-phone"></i>&nbsp 0115 445 000</li><br>
+
+      <li><i class="fa fa-envelope"></i>&nbsp saveaqua2021@gmail.com</li>
+
+</ul>
+  </div>
+</div>
+  
+  
+  <div id="content3" action="write_to_us.php" method="POST">
+  <h4>Write To Us</h4>
+  <form action="write_to_us.php" method="POST">
+<div class="form-group">
+  <input type="text" name="writename"class="form-control input-lg" placeholder="Your Name" required="">
+</div>
+
+<div class="form-group">
+  <input type="Email" name="writeemail"class="form-control input-lg" placeholder="E-mail" required="">
+</div>
+
+<div class="form-group">
+  <input type="text" name="writesubject"class="form-control input-lg" placeholder="Subject" required="">
+</div>
+
+<div class="form-group">
+  <textarea class="form-control input-lg" name="content" style="height: 100px; " placeholder="Message" required=""></textarea>
+  </div>
+
+  <input type="submit" name="send" class="btn" style="visibility: visible;" value="Send">
+</form>
+</div>
+</div>
+</section>
+ 
+<div class="container">
+
+  <div id="content10">
+    <h2>Useful Links</h2><br>
+    <br>
+    <p>
+    <ul>
+      <li><a href="Index.html" class="hometab"><i class="fas fa-home"></i></i></i>&nbsp;Home</a></li><br>
+      <li><a href="Problems/problem.html"><i class="fas fa-question"></i></i>&nbsp;Problems</a></li>
+      <br>
+      <li><a href="Solutions/Solutions.html"><i class="fas fa-tools"></i></i>&nbsp;Solutions</a></li>
+      <br>
+      <li><a href="Overview/Overview.html"><i class="fas fa-search"></i></i>&nbsp;Overview</a></li>
+      <br>
+      <li><a href="Suggestions/Suggestions.html"><i class="fas fa-comments"></i></i>&nbsp;Suggestions</a></li><br>
+  </p>
+  </div>
+
+  <div id="content12"> 
+   <h2>Subscribe</h2><br><br>
+    <ul>
+    <li>
+     <a href="https://www.facebook.com/Saveaqua2021"><i class="fab fa-facebook"></i>&nbsp;Facebook
+      </a></li><br>
+    <li><a href="https://www.youtube.com/channel/UCUl_fnrluEpWDQ3urYv_iQg"><i class="fab fa-youtube"></i>&nbsp;YouTube</a></li><br>
+     <li><a href="mailto:saveaqua2021@gmail.com"><i class="fas fa-envelope"></i>&nbsp;Gmail</a></li><br>
+     <li><a href="https://sdgs.un.org/goals/goal6"><i class="fas fa-globe-americas"></i>&nbsp;SDG</a></li><br>
+  </ul>
+  </div>
+
+<div id="content13">
+  <h2>Technologies</h2><br>
+  <ul>
+      <li>HTML</li><br>
+      <li>CSS</li><br>
+      <li>PHP</li><br>
+      <li>SQL</li><br>
+      <li>Photoshop</li><br>
+      <li>Bootstrap</li><br>
+      
+    </ul>
+</div>
+
+<div class="footer">
+    <h3>Copyright © 2021 - Designed & Developed by <span>I. Savindu Rachinthana</span> [ Index_Num: 21447 ]</h3></div>
+</div>
+</div>
+
+<script>
+  let spin=DOC
+</script>
+  <script>
+          var show = document.getElementById("nav-links")
+          function showMenu()
+          {
+               show.style.right="0";
+          }
+          function closeMenu()
+          {
+               show.style.right="-200px";
+          }
+</script>
+<script>
+ 
+let spinnerWrapper = document.querySelector('.loadack');
+
+ window.addEventListener('load', function () {
+spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+});
+</script>
+   <!--<script>
+   
+    let loader = document.querySelector('.loader');
+ 
+    window.addEventListener('load', function () {
+        loader.parentElement.removeChild(loader);
+    });
+       var preloader = document.getElementById('cup');
+          function myfunctionload()
+          {
+             
+
+            preloader.style.display = 'none';
+
+          }
+
+</script>-->
+
+</body>
 </html>
+
+ 
