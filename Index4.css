@@ -421,7 +421,7 @@
     }
     .nav-links
     {
-        height: 80vh;
+        height: 100vh;
         width: 200px;
         background: black;
         border-radius: 10px;
@@ -435,7 +435,7 @@
     .nav-links ul a
     {
         display: block;
-        font-size: 20;
+        font-size: 18;
     }
     .nav-links ul li
     {
