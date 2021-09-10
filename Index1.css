@@ -1,13 +1,7 @@
-.nav-logo img
-{
-    width: 100px;
-    height: 100px;
-    margin-top: 0px;
-    margin-left: 0px;
-}
+
 .nav-links ul
 {
-    margin-left: 20px;
+    margin-left: 10px;
     display: inline;
     float: right;
 }

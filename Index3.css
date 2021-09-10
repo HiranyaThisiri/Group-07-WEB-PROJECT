@@ -11,11 +11,10 @@
 }
 .btn
 {
-    box-shadow: 0 10px 20px gray;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 120px;
     top: -30px;
-    left: 5px;
+    left: 0px;
     position: relative;
     border-radius: 10px;
     margin-top: 25px;
@@ -23,26 +22,15 @@
 }
 .btn:hover 
 {
-    box-shadow: 0 5px 10px gray;
-    transform: scale(0.9);
+    transform: scale(0.98);
 }
 .button1
 {
     background: url(Images/logo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    border: 3px solid white;
 }
-.btn1
-{
-    padding: 10px 20px;
-    border: 0;
-    background: yellow;
-    font-weight: bold;
-    cursor: pointer;
-    margin-left: 400px;
-    margin-top: 20px;
-}
+
 
 /*Image slider*/
 
@@ -518,7 +506,7 @@ p {
     background: linear-gradient(
         rgba(70, 71, 77, 1),
         rgba(6,222,225,0.4)
-      ),url(img/map-bg.jpg);
+      );
     color: white;
   }
   

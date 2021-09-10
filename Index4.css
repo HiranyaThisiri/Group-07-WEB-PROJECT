@@ -315,6 +315,13 @@
     {
         font-size: 16;
     }
+    .nav-logo .btn
+    {
+        margin-left: -13px;
+        margin-top: 40px;
+        height: 100px;
+        width: 180px;
+    }
     .media-icons 
     {
         top: 500px;
@@ -397,7 +404,7 @@
     }
     .nav-bar
     {
-        padding: 10px 30px;
+        padding: 10px 20px;
     }
     .fa-bars
     {
@@ -414,7 +421,7 @@
     }
     .nav-links
     {
-        height: 70vh;
+        height: 80vh;
         width: 200px;
         background: black;
         border-radius: 10px;
@@ -428,18 +435,11 @@
     .nav-links ul a
     {
         display: block;
-        font-size: 18;
+        font-size: 20;
     }
     .nav-links ul li
     {
         display: block;
-    }
-    .nav-logo .btn
-    {
-        margin-left: -13px;
-        margin-top: 40px;
-        height: 60px;
-        width: 60px;
     }
     .main2
     {
