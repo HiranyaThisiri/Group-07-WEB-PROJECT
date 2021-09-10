@@ -15,7 +15,8 @@
 }
 .button1
 {
-    background: url(Images/logo.png);
+    background: url(../Images/logo.png);
     background-repeat: no-repeat;
     background-size: cover;
+    border: 3px solid white;
 }
