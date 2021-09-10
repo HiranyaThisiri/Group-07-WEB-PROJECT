@@ -1,8 +1,7 @@
 .btn
 {
-    box-shadow: 0 10px 20px gray;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 120px;
     top: -30px;
     left: 5px;
     position: relative;
@@ -12,26 +11,11 @@
 }
 .btn:hover 
 {
-    box-shadow: 0 5px 10px gray;
-    transform: scale(0.9);
+    transform: scale(0.98);
 }
 .button1
 {
-    background: url(../Images/logo.png);
+    background: url(Images/logo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    border: 3px solid white;
 }
-.btn1
-{
-    padding: 10px 20px;
-    border: 0;
-    background: rgb(176, 198, 219);
-    font-weight: bold;
-    cursor: pointer;
-    margin-left: 400px;
-    margin-top: 20px;
-}
-
-
-
