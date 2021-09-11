@@ -98,19 +98,57 @@
 
 
   /*responsive dropdown*/
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
+ 
     .dropdown .dropbtn {
+ 
       display: none;
+ 
     }
+ 
     
+ 
   }
-  
-  @media screen and (max-width: 600px) {
+   @media screen and (max-width: 800px) {
+ 
     .dropdown {float: none;}
     .dropdown-content {position: relative;}
-    .dropdown .dropbtn {
+    .dropdown .dropbtn 
+    {
       display: block;
       width: 100%;
       text-align: left;
+ 
     }
+ 
+  }
+
+ 
+
+
+  @media screen and (max-width: 600px) {
+ 
+    .dropdown .dropbtn {
+ 
+      display: none;
+ 
+    }
+ 
+    
+ 
+  }
+ 
+  
+  @media screen and (max-width: 600px) {
+ 
+    .dropdown {float: none;}
+    .dropdown-content {position: relative;}
+    .dropdown .dropbtn 
+    {
+      display: block;
+      width: 100%;
+      text-align: left;
+ 
+    }
+ 
   }
