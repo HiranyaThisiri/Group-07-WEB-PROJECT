@@ -339,3 +339,14 @@ input[type=reset]:hover {
     </div>
 
 </form>
+	<script>
+ 
+let spinnerWrapper = document.querySelector('.loadack');
+
+ window.addEventListener('load', function () {
+spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+});
+
+</script>
+</body>
+</html>
