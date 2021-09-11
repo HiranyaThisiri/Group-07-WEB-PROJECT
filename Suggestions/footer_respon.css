@@ -36,10 +36,28 @@ ul
   background: #363940;
   grid-area: content1;
 }
-
+#content10 a
+{
+    text-decoration: none;
+    color: white;
+}
+#content10 a:hover
+{
+    
+    color: yellow;
+}
 #content12 {
   background: #363940;
   grid-area: content2;
+}
+#content12 a:hover
+{
+    color: yellow;
+}
+#content12 a
+{
+    text-decoration: none;
+    color: white;
 }
 
 #content13 {
@@ -51,6 +69,10 @@ ul
   background: #2d3035;
   grid-area: footer;
 }
+
+
+
+
 @media only screen and (max-width: 600px) {
   .container {
 
