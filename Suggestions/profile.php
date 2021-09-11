@@ -311,3 +311,31 @@ input[type=reset]:hover {
 
 </style>
 </head>
+	<body>
+
+<div class="loadack"><div id="loader"></div></div>	
+ <div id="stars"></div>
+ 
+<div class="paragraph">
+    <h1>...Uplaod your Articales,New Prposals and your projects... </h1>
+  </div>
+<div id="cotainer_sub1">
+  
+        <form method="POST" name="form2" class="formcss1" onsubmit="return validate()"; enctype="multipart/form-data">
+            <legend><h1>Upload Your Articles</h1></legend>
+            <div class="row">
+        <div class="col-25">
+        <label for="fileuplaod"> File Submisstion </label>
+      </div>
+      <div class="col-75">
+        <input type="file" class="input69" id="file" name="myfile1" placeholder="Upload Your Article or others"> <br> <br> <br>
+         </div>
+    </div>
+       <div class="row">
+
+      <input type="submit" class="save" value="Send File"s name="submit">
+
+      <input type="reset" class="cancel" value="Cancel" name="reset">
+    </div>
+
+</form>
