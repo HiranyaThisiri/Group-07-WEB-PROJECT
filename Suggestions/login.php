@@ -44,3 +44,12 @@ else
 }
 }
 ?>
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="Login_loading_screen.css">
+    <link rel="stylesheet" href="Animation.css">
+<style>
+  
