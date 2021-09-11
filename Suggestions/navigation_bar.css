@@ -41,7 +41,7 @@
 {
     color: white;
     text-decoration: none;
-    font-size: 18;
+    font-size: 19px;
     font-family: 'Poppins';
     font-weight:bold;
 }
@@ -142,6 +142,20 @@
   }
  
   /*responsive dropdown*/
+@media (max-width: 900px)
+{
+    .nav-links ul a
+    {
+        font-size: 16;
+    }
+    .nav-logo .btn
+    {
+        margin-left: -13px;
+        margin-top: 40px;
+        height: 100px;
+        width: 180px;
+    }
+}
  @media (max-width: 800px)
 {
   
