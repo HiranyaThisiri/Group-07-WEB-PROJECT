@@ -47,6 +47,22 @@ html
   height: auto;
 }
 @media screen and (max-width: 900px) {
+  #container1{
+    width: 100%;
+  height: 100%;
+  margin-top: -97vh;
+
+  }
+  .responsive1 {
+
+    margin-top: 90px;
+    margin-bottom: 100px;
+    margin-left: 86px;
+    width: 75%;
+    height: auto;
+ 
+}
+}
 
 #container2
   {
