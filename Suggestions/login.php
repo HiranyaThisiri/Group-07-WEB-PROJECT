@@ -391,4 +391,16 @@ input[type=reset]:hover {
             <td><input type="submit" value="Signin" class="button"></td>
     </form>
 </table>-->
+  <script>
+ 
+let spinnerWrapper = document.querySelector('.loadack');
+
+ window.addEventListener('load', function () {
+spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+});
+
+</script>
+
+</body>
+</html>
 
