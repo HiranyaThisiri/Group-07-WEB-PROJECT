@@ -75,11 +75,8 @@ html
 }
 @media screen and (max-width: 600px) {
   .responsive1
-  {
-    
-   
-    margin-left: 50px;
-   
+  { 
+    margin-left: 50px; 
   }
 }
 
