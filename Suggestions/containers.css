@@ -46,6 +46,16 @@ html
   width: 100%;
   height: auto;
 }
+#container2
+  {
+    height:140vh;
+  }
+ .formcss
+  {
+    margin-top: -10vh;
+    padding: 30px;
+  }
+}
 @media screen and (max-width: 900px) {
   #container1{
     width: 100%;
@@ -63,17 +73,16 @@ html
  
 }
 }
-
-#container2
+@media screen and (max-width: 600px) {
+  .responsive1
   {
-    height:140vh;
-  }
- .formcss
-  {
-    margin-top: -10vh;
-    padding: 30px;
+    
+   
+    margin-left: 50px;
+   
   }
 }
+
 /*#container3
 {
     height: 800px;
