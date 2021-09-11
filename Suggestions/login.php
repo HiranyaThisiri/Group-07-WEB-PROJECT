@@ -344,4 +344,51 @@ input[type=reset]:hover {
   }
 
 </style>
-   </head>  
+   </head> 
+<body>
+
+<div class="loadack"><div id="loader"></div></div>
+ <div id="stars"></div>
+
+    <div id="cotainer_sub1">
+        <form method="POST" name="form2" class="formcss1" onsubmit="return validate()";>
+            <legend><h1>Sign In</h1></legend>
+            <div class="row">
+      <div class="col-25">
+        <label for="Email Add"> Email </label>
+      </div>
+      <div class="col-75">
+        <input type="email" class="input69" id="Email" name="email" placeholder="Email Address" > <br>
+         </div>
+    </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="passwd">Password</label>
+      </div>
+      <div class="col-75">
+       <input type="password" id="pword" name="password" placeholder="Enter Your Strong Password" ><br><br>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <input type="submit" class="save" value="Sign In" name="submit">
+
+      <input type="reset" class="cancel" value="Cancel" name="reset">
+    </div>
+
+
+        </form>
+    </div>
+    <!--<table border="1">
+    <form action="profile.php" method="POST" class="box">
+
+<th><h1>Sign In</h1></th>
+
+<td><input type="text" placeholder="username" class="usid"><br></td>
+            <td><input type="password" placeholder="password" class="usid"><br></td>
+            <td><input type="submit" value="Signin" class="button"></td>
+    </form>
+</table>-->
+
