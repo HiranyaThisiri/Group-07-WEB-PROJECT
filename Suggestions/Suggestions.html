@@ -6,7 +6,7 @@
   <title>Suggestions</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="shortcut icon" href="../images/waterdrop.png">
+  <link rel="shortcut icon" href="../images/Layer 01.png">
   <link rel="stylesheet" href="Loadingscreen.css">
   <link rel="stylesheet" href="navigation_bar.css">
   <link rel="stylesheet" href="containers.css">
@@ -104,15 +104,52 @@
   <!--Navigation Bar -->
    <div id="hero">
             <div class="nav-bar">
+              <div class="nav-logo">
+                        <a href=""><button class="btn0 button11"></button></a>
+                    </div>
                     <div class="nav-links" id="nav-links">
                         <i id="to-top" class="fas fa-times-circle" onclick="closeMenu()"></i>
                         <ul>
-                            <li><a id="link1" href="" class="hometab">Home</a></li>
-                            <li><a id="link1" href="Problems/problem.html">Problems</a></li>
-                            <li><a id="link1" href="Solutions/Solutions.html">Solutions</a></li>
-                            <li><a id="link1" href="Overview/Overview.html">Overview</a></li>
-                            <li><a id="link1" href="Suggestions/Suggestions.html">Suggestions</a></li>
-                            <li><a id="link1" href="login.php">Sign In</a></li>
+                          <div class="dropdown">
+                            <li><a id="link1" href="Index.html" class="hometab">Home</a>
+                              <div class="dropdown-content">
+                                <a href="#container1">Water</a>
+                                <a href="#container4">Sanitation</a>
+                                <a href="#container6">Importance</a>
+                                <a href="#container7">Water Resources</a>
+                              </div>
+                          </div>  
+                          </li>
+ 
+                          <div class="dropdown">
+                            <li><a id="link1" href="Problems/problem.html">Problems</a>
+                              <div class="dropdown-content">
+                                <a href="Problems/Problem.html/#problemcon1">Water pollution</a>
+                                <a href="Problems/Problem.html/#problemcon2">water contamination ways</a>
+                                <a href="Problems/Problem.html/#problemcon3">Poor Sanitation</a>
+                                <a href="Problems/Problem.html/#problemcon4">Causes of poor sanitation</a>
+                              </div>
+                          </div>  
+                            </li>
+ 
+                          <div class="dropdown">
+                            <li><a id="link1" href="Solutions/solutions.html">Solutions</a>
+                              <div class="dropdown-content">
+                                <a href="Solutions/solutions.html/#sol1">Water</a>
+                                <a href="Solutions/solutions.html/#sol2">Sanitation</a>
+                              </div>
+                          </div>  
+                            </li>
+ 
+                            <li><a id="link1" href="Overview/Overview.html">Overview</a>
+                            </li>
+ 
+                            <li><a id="link1" href="Suggestions/Suggestions.html">Suggestions</a>
+                            </li>
+ 
+                            <li><a id="link1" href="login.php">Sign In</a>
+                            </li>
+ 
                         </ul>
                     </div>
                     <i id="to-top" class="fas fa-bars" onclick="showMenu()"></i>
@@ -515,7 +552,9 @@
 </div>
  <div id="stars"></div>
 </div>
-  <section  class="back">
+  
+
+<section  class="back">
 <hr class="line">
 
 <div class="contact">
@@ -538,9 +577,8 @@
 </ul>
   </div>
 </div>
-  
-  
-  <div id="content3" action="write_to_us.php" method="POST">
+
+<div id="content3" action="write_to_us.php" method="POST">
   <h4>Write To Us</h4>
   <form action="write_to_us.php" method="POST">
 <div class="form-group">
@@ -562,9 +600,11 @@
   <input type="submit" name="send" class="btn" style="visibility: visible;" value="Send">
 </form>
 </div>
+
+
 </div>
 </section>
- 
+
 <div class="container">
 
   <div id="content10">
@@ -582,9 +622,8 @@
       <li><a href="Suggestions/Suggestions.html"><i class="fas fa-comments"></i></i>&nbsp;Suggestions</a></li><br>
   </p>
   </div>
-
-  <div id="content12"> 
-   <h2>Subscribe</h2><br><br>
+  <div id="content12">
+    <h2>Subscribe</h2><br><br>
     <ul>
     <li>
      <a href="https://www.facebook.com/Saveaqua2021"><i class="fab fa-facebook"></i>&nbsp;Facebook
@@ -592,10 +631,10 @@
     <li><a href="https://www.youtube.com/channel/UCUl_fnrluEpWDQ3urYv_iQg"><i class="fab fa-youtube"></i>&nbsp;YouTube</a></li><br>
      <li><a href="mailto:saveaqua2021@gmail.com"><i class="fas fa-envelope"></i>&nbsp;Gmail</a></li><br>
      <li><a href="https://sdgs.un.org/goals/goal6"><i class="fas fa-globe-americas"></i>&nbsp;SDG</a></li><br>
-  </ul>
+  
+</ul>
   </div>
-
-<div id="content13">
+    <div id="content13">
   <h2>Technologies</h2><br>
   <ul>
       <li>HTML</li><br>
@@ -606,11 +645,12 @@
       <li>Bootstrap</li><br>
       
     </ul>
-</div>
 
-<div class="footer">
+</div>
+  <div class="footer">
     <h3>Copyright © 2021 - Designed & Developed by <span>I. Savindu Rachinthana</span> [ Index_Num: 21447 ]</h3></div>
 </div>
+
 </div>
 
 <script>
@@ -627,6 +667,7 @@
                show.style.right="-200px";
           }
 </script>
+
 <script>
  
 let spinnerWrapper = document.querySelector('.loadack');
@@ -634,8 +675,13 @@ let spinnerWrapper = document.querySelector('.loadack');
  window.addEventListener('load', function () {
 spinnerWrapper.parentElement.removeChild(spinnerWrapper);
 });
+
 </script>
-   <!--<script>
+
+        
+
+
+<!--<script>
    
     let loader = document.querySelector('.loader');
  
@@ -651,9 +697,8 @@ spinnerWrapper.parentElement.removeChild(spinnerWrapper);
 
           }
 
+
 </script>-->
 
 </body>
 </html>
-
- 
