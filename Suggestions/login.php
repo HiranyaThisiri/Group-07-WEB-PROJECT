@@ -52,4 +52,296 @@ else
     <link rel="stylesheet" href="Login_loading_screen.css">
     <link rel="stylesheet" href="Animation.css">
 <style>
+body
+{
+  background-image: url('image 2.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:#464646;
+}
+.input69, select {
+
+ width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ resize: vertical;
+ color: #2b0ff6;
+ margin-top: 0.5vh; /*form select top chang*/
+ box-sizing: border-box;
+ /*margin-top: 10px;*/
+}
+legend
+{
+  text-align: center;
+  margin-bottom: 15px ;
+  color: white;
+  height: 50px;
+  padding-top: 0px ;
+  padding-bottom: 5px;
+  background-color: rgb(0, 0, 0, 0.4);
+  border-radius: 2vh 2vh 2vh 2vh;;
+  margin-top: -50px;
+}
+label
+ {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color: white;
+  font-size: 22px;
+   /*margin-top: 50px;*/
+}
+
+.save
+{
+  background-color: #04AA6D;
+  color: white;
+  margin: 0.2vh 0vh 0vh 3vh;
+  border: none;
+  padding: 2.5vh 12vh;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+input[type=reset] {
+  background-color: #04AA6D;
+  color: white;
+  margin: 0.2vh 0vh 0vh 3vh;
+  border: none;
+  border-radius: 4px;
+  padding: 2.5vh 12vh;
+  cursor: pointer;
+  float: right;
+  margin-right: -0.5%;
+  font-size: 18px;
+}
+input[type=submit] {
   
+  font-size: 18px;
+}
+input[type=reset]:hover {
+  background-color: #5390F5;
+}
+.save:hover {
+ background-color: #5390F5;
+}
+#cotainer_sub1 {
+  /*border-radius: 10vh 10vh 10vh 10vh;
+  background-color: rgb(0, 0, 0, 0.5);*/
+  padding-left: 15vw;
+  padding-right: 15vw;
+  margin-top: 10vw;
+  
+ }
+.formcss1
+ {
+  background-color: rgb(0, 0, 0, 0.5);
+  border-radius: 5vh 5vh 5vh 5vh;
+  padding: 60px;
+  margin-bottom: -50vh;
+
+
+ }
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.row:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+#pword
+{
+  width: 99%;
+  height: 42px;
+  border-radius: 5px;
+  margin-bottom: 1vh;
+  color: #2b0ff6;
+}
+
+
+@media screen and (max-width: 900px) {
+  .col-25, .col-75
+  {
+    width: 100%;
+    margin-bottom: -18px;
+
+  }
+
+
+   .save , input[type=reset] 
+  {
+    width: 100%;
+    margin-top: 0;
+    padding: 15px;
+
+  }
+   input[type=reset] 
+  {
+    width: 100%;
+    margin-top: 2%;
+    margin-right: 0%;
+    
+  }
+.formcss1
+  {
+    margin-top: -10vh;
+    padding: 30px;
+
+
+  }
+  #cotainer_sub1 {
+  
+  padding: 10vw;
+  margin-top: 10vw;
+  
+ }
+
+}
+@media screen and (max-width: 768px) {
+  .col-25, .col-75
+  {
+    width: 100%;
+    margin-bottom: -20px;
+
+  }
+  
+  .save , input[type=reset] 
+  {
+    width: 100%;
+    margin-top: 0;
+    padding: 15px;
+
+  }
+   input[type=reset] 
+  {
+    width: 100%;
+    margin-top: 2%;
+    margin-right: 0%;
+    
+  }
+.formcss1
+  {
+    margin-top: -8vh;
+    padding:50px;
+    /*width: 600px;
+    margin-left: ;*/
+    
+  }
+
+  label
+ {
+  padding: 18px 18px 18px 0;
+ 
+  font-size: 18px;
+   /*margin-top: 50px;*/
+}
+ #cotainer_sub1 {
+  
+  padding: 10vw;
+  margin-top: 10vw;
+  
+ }
+}
+@media screen and (max-width: 600px) {
+  .col-25, .col-75
+  {
+    width: 100%;
+    margin-bottom: -20px;
+
+  }
+  
+  }
+  .save , input[type=reset] 
+  {
+    width: 100%;
+    margin-top: 0;
+    padding: 15px;
+
+  }
+   input[type=reset] 
+  {
+    width: 100%;
+    margin-top: 2%;
+    margin-right: 0%;
+    
+  }
+.formcss1
+  {
+    margin-top: -5vh;
+
+  }
+
+}
+@media screen and (max-width: 500px) {
+  .formcss1
+  {
+
+    width: 342px;
+    margin-left: -40px;
+    margin-top: -2vh;
+  }
+
+  }
+  @media screen and (max-width: 400px) {
+  .formcss1
+  {
+
+    width: 260px;
+    margin-left: -80px;
+    margin-top: 10vh;
+  }
+  #cotainer_sub1 {
+  
+  padding-left: 20vw;
+  margin-top: 0vh;
+  
+ }
+
+  }
+   @media screen and (max-width: 350px) {
+    #cotainer_sub1 {
+  
+  padding: 20vw;
+  margin-top: 20vh;
+  
+ }
+  .formcss1
+  {
+
+    width: 270px;
+    margin-left: -40px;
+    margin-top: -2vh;
+  }
+  }
+    @media screen and (max-width: 300px) {
+  .formcss1
+  {
+
+    width: 230px;
+    margin-left: -65px;
+    margin-top: -2vh;
+  }
+  }
+ @media screen and (max-width: 250px) {
+  .formcss1
+  {
+
+    width: 190px;
+    margin-left: -30px;
+    margin-top: 10vh;
+  }
+  }
+
+</style>
+   </head>  
