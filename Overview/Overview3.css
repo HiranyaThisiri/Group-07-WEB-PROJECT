@@ -148,38 +148,7 @@
 {
     background: white;
 }
-#radio5:checked ~ .first
-{
-    margin-left: 0;
-}
-#radio6:checked ~ .first
-{
-    margin-left: -20%;
-}
-#radio7:checked ~ .first
-{
-    margin-left: -40%;
-}
-#radio8:checked ~ .first
-{
-    margin-left: -60%;
-}
-#radio5:checked ~ .navigation-auto .auto-btn1
-{
-    background: white;
-}
-#radio6:checked ~ .navigation-auto .auto-btn2
-{
-    background: white;
-}
-#radio7:checked ~ .navigation-auto .auto-btn3
-{
-    background: white;
-}
-#radio8:checked ~ .navigation-auto .auto-btn4
-{
-    background: white;
-}
+
 
 /*Waves starting*/
 
