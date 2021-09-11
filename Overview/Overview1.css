@@ -7,7 +7,6 @@
 }
 .nav-links ul
 {
-    margin-left: 30px;
     display: inline;
     float: right;
 }
@@ -15,13 +14,13 @@
 {
     list-style: none;
     display: inline-block;
-    padding: 8px 12px;
+    padding: 4px 8px;
 }
 .nav-links ul a
 {
     color: white;
     text-decoration: none;
-    font-size: 20;
+    font-size: 18;
     font-family:'Poppins';
     font-weight: bold;
 }
