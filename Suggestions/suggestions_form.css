@@ -187,7 +187,87 @@ input[type=reset]:hover {
   font-size: 18px;
    /*margin-top: 50px;*/
 }
- 
+}
+@media screen and (max-width: 600px) {
+  .col-25, .col-75
+  {
+    width: 100%;
+    margin-bottom: -20px;
+
+  }
+  legend
+  {
+    padding-top: 10px ;
+    padding-bottom: 20px;
+    border-radius: 2vh 2vh 2vh 2vh;;
+
+  }
+  .save , input[type=reset] 
+  {
+    width: 100%;
+    margin-top: 0;
+    padding: 15px;
+
+  }
+   input[type=reset] 
+  {
+    width: 100%;
+    margin-top: 2%;
+    margin-right: 0%;
+    
+  }
+.formcss
+  {
+    margin-top: -5vh;
+
+  }
+
  
 }
+
+@media screen and (max-width: 500px) {
+  .formcss
+  {
+
+    width: 342px;
+    margin-left: -40px;
+    margin-top: -2vh;
+  }
+  }
+  @media screen and (max-width: 400px) {
+  .formcss
+  {
+
+    width: 260px;
+    margin-left: -20px;
+    margin-top: -2vh;
+  }
+  }
+   @media screen and (max-width: 350px) {
+  .formcss
+  {
+
+    width: 270px;
+    margin-left: -40px;
+    margin-top: -2vh;
+  }
+  }
+    @media screen and (max-width: 300px) {
+  .formcss
+  {
+
+    width: 230px;
+    margin-left: -40px;
+    margin-top: -2vh;
+  }
+  }
+ @media screen and (max-width: 250px) {
+  .formcss
+  {
+
+    width: 190px;
+    margin-left: -30px;
+    margin-top: -2vh;
+  }
+  }
 
