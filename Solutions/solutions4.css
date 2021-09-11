@@ -1,3 +1,13 @@
+@media screen and (max-width: 900px){
+    .nav-links ul a
+    {
+        font-size: 16;
+    }
+
+}
+
+
+
 @media screen and (max-width: 800px) {
     .nav-bar {
         padding: 10px 30px;
