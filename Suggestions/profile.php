@@ -25,7 +25,7 @@ $fname=$_FILES["myfile1"]["name"];
 <style>
 	body
 {
-  background-image: url('image 6.jpg');
+  background-image: url('../images/Suggestion_05.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
