@@ -28,8 +28,6 @@ html
 }
 #container2
 {
-   
-
     background: linear-gradient(
       rgba(6,222,225,0.4),
       rgba(70, 71, 77, 1)
@@ -48,3 +46,29 @@ html
   width: 100%;
   height: auto;
 }
+@media screen and (max-width: 900px) {
+
+#container2
+  {
+    height:140vh;
+  }
+ .formcss
+  {
+    margin-top: -10vh;
+    padding: 30px;
+  }
+}
+/*#container3
+{
+    height: 800px;
+    margin-left: 5px;
+    background-color: skyblue;
+    margin-top: -10px;
+    margin-left: 0px;
+    margin-right: -10px;
+}
+.responsive2
+{
+  width: 100%;
+  height: auto;
+}*/
