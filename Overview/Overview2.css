@@ -72,8 +72,12 @@
 }
 .main2
 {
-    
-    height: 200px;
+
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    max-width: none;
 }
 #c1
 {
