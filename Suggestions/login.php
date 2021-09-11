@@ -55,7 +55,7 @@ else
 <style>
 body
 {
-  background-image: url('image 2.jpg');
+  background-image: url('../images/Suggestion_04.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
