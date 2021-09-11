@@ -21,7 +21,7 @@ grid-gap: 0.2rem;
   background: linear-gradient(
       rgba(70, 71, 77, 1),
       rgba(6,222,225,0.4)
-    ),url(img/map-bg.jpg);
+    ),url('../images/Suggestion_02.jpg');
   color: white;
 }
 
