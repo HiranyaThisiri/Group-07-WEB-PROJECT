@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="Overview3.css">
         <link rel="stylesheet" href="Overview4.css">
         <link rel="stylesheet" href="Responsive.css">
+        <link rel="stylesheet" href="loading_screen.css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,6 +26,7 @@
         
     </head>
     <body>
+      <div class="loadack"><div id="loader"></div></div>
 
         <div id="hero">
             <div class="nav-bar">
@@ -328,6 +330,16 @@
                show.style.right="-200px";
           }
       </script>
+      
+      <script>
+
+        let spinnerWrapper = document.querySelector('.loadack');
+         
+         window.addEventListener('load', function () {
+        spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+        });
+         
+        </script>
 
 
     </body>
