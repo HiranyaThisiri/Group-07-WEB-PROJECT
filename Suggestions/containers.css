@@ -26,3 +26,25 @@ html
     height: auto;
  
 }
+#container2
+{
+   
+
+    background: linear-gradient(
+      rgba(6,222,225,0.4),
+      rgba(70, 71, 77, 1)
+    ),url(v.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+    margin-left: 5px;
+    background-color: white;
+    margin-top: -14px;
+    margin-left: 0px;
+    margin-right: -2vh;
+}
+.responsive2
+{
+  width: 100%;
+  height: auto;
+}
