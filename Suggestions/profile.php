@@ -1,61 +1,31 @@
 <?php
-if(isset($_POST['email'])&&isset($_POST['password'])){
-  $email = $_POST['email'];
-  $password = $_POST['password'];
 
+if(isset($_FILES["myfile1"]["name"])){
 
-// database connection here
-$con = new mysqli("localhost", "root", "","save_aqua_db");
-if ($con-> connect_error)
- {
-  die("Failed to connect: ".$con->connect_error);
-}
-
-else
-{
-  $stmt = $con->prepare("select * from registration where email = ?");
-  $stmt -> bind_param("s",$email);
-  $stmt->execute(); 
-  $stmt_result = $stmt->get_result();
-  if ($stmt_result->num_rows > 0) 
-  {
-    $data = $stmt_result->fetch_assoc();
-    $data['password']=str_replace(' ','',$data['password']);
-
-
-    if($data['password']== $password)
-    {
-      echo "<h2>Log in Successfully</h2>";
-      //window.location.replace="profile.php";
-      //action="profile.php";
-      $link="save_aqua_temp/profile.php";
-      header('location:profile.php');
-    }
-    else
-    {
-      echo "<h2>Invalid Email or Password</h2>";
-    }
-  }
+$fname=$_FILES["myfile1"]["name"];
+  $ftemp=$_FILES["myfile1"]["tmp_name"];
+  $flag=move_uploaded_file($ftemp,"img/$fname");
+  if($flag)
+  {echo "File Uplaod Successfully!";
+    echo"$flag";}
   else
-  {
-    echo "<h2> Invalid Email or password </h2>";
-  }
+  {echo " Sorry couldn't move";}
 
-}
 }
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In</title>
-    <link rel="stylesheet" href="Login_loading_screen.css">
-    <link rel="stylesheet" href="Animation.css">
+	<meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Profile </title>
+  <link rel="stylesheet" href="profile_loading_screen.css">
+  <link rel="stylesheet" href="Animation.css">
+  
 <style>
-body
+	body
 {
-  background-image: url('image 2.jpg');
+  background-image: url('image 6.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -145,6 +115,11 @@ input[type=reset]:hover {
 
 
  }
+.paragraph
+{
+  text-align: center;
+  color:  #800040;
+}
 .col-25 {
   float: left;
   width: 25%;
@@ -160,17 +135,7 @@ input[type=reset]:hover {
   content: "";
   display: table;
   clear: both;
-}
-#pword
-{
-  width: 99%;
-  height: 42px;
-  border-radius: 5px;
-  margin-bottom: 1vh;
-  color: #2b0ff6;
-}
-
-
+}	
 @media screen and (max-width: 900px) {
   .col-25, .col-75
   {
@@ -345,54 +310,36 @@ input[type=reset]:hover {
   }
 
 </style>
-   </head> 
-<body>
+</head>
+	<body>
 
-<div class="loadack"><div id="loader"></div></div>
+<div class="loadack"><div id="loader"></div></div>	
  <div id="stars"></div>
-
-    <div id="cotainer_sub1">
-        <form method="POST" name="form2" class="formcss1" onsubmit="return validate()";>
-            <legend><h1>Sign In</h1></legend>
+ 
+<div class="paragraph">
+    <h1>...Uplaod your Articales,New Prposals and your projects... </h1>
+  </div>
+<div id="cotainer_sub1">
+  
+        <form method="POST" name="form2" class="formcss1" onsubmit="return validate()"; enctype="multipart/form-data">
+            <legend><h1>Upload Your Articles</h1></legend>
             <div class="row">
-      <div class="col-25">
-        <label for="Email Add"> Email </label>
+        <div class="col-25">
+        <label for="fileuplaod"> File Submisstion </label>
       </div>
       <div class="col-75">
-        <input type="email" class="input69" id="Email" name="email" placeholder="Email Address" > <br>
+        <input type="file" class="input69" id="file" name="myfile1" placeholder="Upload Your Article or others"> <br> <br> <br>
          </div>
     </div>
+       <div class="row">
 
-    <div class="row">
-      <div class="col-25">
-        <label for="passwd">Password</label>
-      </div>
-      <div class="col-75">
-       <input type="password" id="pword" name="password" placeholder="Enter Your Strong Password" ><br><br>
-      </div>
-    </div>
-
-    <div class="row">
-
-      <input type="submit" class="save" value="Sign In" name="submit">
+      <input type="submit" class="save" value="Send File"s name="submit">
 
       <input type="reset" class="cancel" value="Cancel" name="reset">
     </div>
 
-
-        </form>
-    </div>
-    <!--<table border="1">
-    <form action="profile.php" method="POST" class="box">
-
-<th><h1>Sign In</h1></th>
-
-<td><input type="text" placeholder="username" class="usid"><br></td>
-            <td><input type="password" placeholder="password" class="usid"><br></td>
-            <td><input type="submit" value="Signin" class="button"></td>
-    </form>
-</table>-->
-  <script>
+</form>
+	<script>
  
 let spinnerWrapper = document.querySelector('.loadack');
 
@@ -401,7 +348,5 @@ spinnerWrapper.parentElement.removeChild(spinnerWrapper);
 });
 
 </script>
-
 </body>
 </html>
-
