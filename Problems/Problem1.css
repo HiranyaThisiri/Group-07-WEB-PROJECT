@@ -104,14 +104,14 @@
 
 
   /*responsive dropdown*/
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 900px) {
     .dropdown .dropbtn {
       display: none;
     }
     
   }
   
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 900px) {
     .dropdown {float: none;}
     .dropdown-content {position: relative;}
     .dropdown .dropbtn {
