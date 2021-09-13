@@ -407,7 +407,7 @@ p {
   
   .container {
     display: grid;
-    height: 55vh;
+    height: 50vh;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 0.8fr 0.2fr;
     grid-template-areas:"content1 content2 content3"
@@ -474,7 +474,6 @@ p {
     {
       margin-left: 10px;
       text-align: center;
-  
     }
   }
 
