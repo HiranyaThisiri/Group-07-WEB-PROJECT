@@ -614,6 +614,7 @@ p {
     "content2"
     "content3";
   }
+}
 
   @media (max-width: 300px)  
   {
@@ -624,9 +625,9 @@ p {
       height: 162vh;
     }
   
-  }
-
 }
+
+
 
 /*dropdown*/
 
