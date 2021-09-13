@@ -50,6 +50,7 @@ else
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In</title>
+     <link rel="shortcut icon" href="../images/Layer 01.png">
     <link rel="stylesheet" href="Login_loading_screen.css">
     <link rel="stylesheet" href="Animation.css">
 <style>
