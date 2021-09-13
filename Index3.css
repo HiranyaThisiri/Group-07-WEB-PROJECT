@@ -407,7 +407,7 @@ p {
   
   .container {
     display: grid;
-    height: 50vh;
+    height: 55vh;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 0.8fr 0.2fr;
     grid-template-areas:"content1 content2 content3"
@@ -424,7 +424,7 @@ p {
   {
     text-align: center; 
     list-style-type:none;
-    line-height: 1.5;
+    line-height: 1.7;
     margin-left: 10px;
   }
   #content13 ul
