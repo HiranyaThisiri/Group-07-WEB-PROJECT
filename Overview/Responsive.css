@@ -1,3 +1,11 @@
+@media (max-width: 1200px)
+{
+    .video2
+    {
+        height: 700px;
+        width: 900px;
+    }
+}
 
 @media (max-width: 900px)
 {
@@ -53,6 +61,11 @@
 
         top: 200px;
 
+    }
+    .video2
+    {
+        height: 670px;
+        width: 700px;
     }
 }
 
