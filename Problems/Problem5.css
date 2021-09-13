@@ -200,7 +200,7 @@ ul
   grid-area: footer;
 }
 @media only screen and (max-width: 600px) {
-  .container {
+  footer {
 
   height: 100vh;
     grid-template-columns: 1fr;
