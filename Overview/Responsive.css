@@ -211,6 +211,11 @@
     {
         top: 450px;
     }
+    .video2
+    {
+        height: 650px;
+        width: 600px;
+    }
 }
 
 @media (max-width: 600px)
@@ -229,7 +234,7 @@
     }
     .main2
     {
-        height: 750px;
+        height: 350px;
     }
     .container12
     {
@@ -261,6 +266,21 @@
     {
         padding-top: 270px;
         font-size: 21;
+    }
+    .video2
+    {
+        height: 300px;
+        width: 300px;
+    }
+    .container4 p
+    {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .container2 p
+    {
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }
 
@@ -300,6 +320,10 @@
     {
         margin-left: 70px;
     } 
+    .main2
+    {
+        height: 500px;
+    }
 }
 
 @media (max-width: 400px)
@@ -357,6 +381,10 @@
     {
         padding-top: 220px;
         font-size: 20;
+    }
+    .main2
+    {
+        height: 350px;
     }
 }
 
